@@ -9,6 +9,40 @@ body {
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+
+
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+/*
+text-vertical-center is used for callout.
+usage sample:
+    <aside class="callout">
+        <div class="text-vertical-center">
+            <h1> Nice to see You~ </h1>
+        </div>
+    </aside>
+*/
+
+.callout {
+    display: table;
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    background: url(../img/callout.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+/*
+callout is adapted from http://ironsummitmedia.github.io/startbootstrap-stylish-portfolio/ 
+*/
+
+
 .text-muted {
     color: #777;
 }
