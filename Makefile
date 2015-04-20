@@ -1,5 +1,5 @@
 
-comment = "default comment"
+comment = "makefile change"
 
 push:
 	git add --all 
