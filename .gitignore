@@ -5,8 +5,14 @@
 *.aux
 *.out
 *.log
-*.syntex.gz
+*.synctex.gz*
+*.synctex.gz
 
+
+moderncv/*.aux
+moderncv/*.out
 moderncv/*.log
+moderncv/*.synctex.gz*
+moderncv/*.synctex.gz
 
 
