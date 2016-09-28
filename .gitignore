@@ -8,7 +8,9 @@
 *.synctex.gz*
 *.synctex.gz
 
-
+# for latex
+moderncv/*.bbl
+moderncv/*.blg
 moderncv/*.aux
 moderncv/*.out
 moderncv/*.log
