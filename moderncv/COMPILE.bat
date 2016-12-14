@@ -8,3 +8,5 @@ rm *.aux
 rm *.blg
 rm *.bbl
 rm *.out
+cp cv_beibinli.pdf ../cv_beibinli.pdf
+pause
