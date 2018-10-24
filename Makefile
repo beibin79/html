@@ -1,3 +1,5 @@
+default:
+	pandoc -f markdown -t html index.md >  index.html
 
 comment = "makefile change"
 

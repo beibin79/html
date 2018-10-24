@@ -1,687 +1,170 @@
-
-<!DOCTYPE html>
-<html lang="en">
-
-
-
-    <head>
-
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="author" content="">
-
-        <link rel="shortcut icon" href="img/stamp/stamp_tr.png"/>
-
-
-        <title>Beibin Li 李辈滨</title>
-
-        <!--  Core CSS -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <!-- Custom CSS -->
-        <link href="css/agency.css" rel="stylesheet">
-        <link href="css/beibin.css" rel="stylesheet">
-
-        <!-- Custom Fonts 国内用不了 googleapi 怎么办？ 看这里 http://www.amznz.com/fonts-googleapis-com-load-slow/ 把 googleapis 换成 useso. 或者自己下载下来放到文件夹里 -->
-        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-        <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-
-    </head>
-
-    <body id="page-top" class="index">
-
-
-        <div style="position:fixed; bottom:50px; right:50px; background:rgba(255,255, 255, 0); z-index:10" >
-            <a class="page-scroll" href="#">
-                <i class="fa fa-arrow-up fa-3x"> </i>
-            </a>
-        </div>
-        <!-- Navigation -->
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header page-scroll">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand page-scroll" href="#page-top">Beibin Li</a>   <!-- Top Right corner, yellow title -->
-                </div>
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <!-- This is the buttons at the header.   Top  bar  buttons -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="hidden">
-                            <a href="#page-top"></a>
-                        </li> 
-                        <li>
-                            <a class="page-scroll" href="#About">About</a>  <!-- This must match section id!!!! # 井号代表在本页跳转。 #为页首， #name 跳到 name section --> 
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#Works">Works</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#Footprint">Footprint</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#Image">Image</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#contact">contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-            </div>
-            <!-- /.container-fluid -->
-        </nav>
-
-        <!-- Header -->
-        <header>
-            <div class="container">
-                <div class="intro-text">
-                    <div class="intro-lead-in">李辈滨</div>
-                    <div class="intro-heading">Beibin Li</div>
-                    <a href="#About" class="page-scroll btn btn-xl">More</a>
-                </div>
-            </div>
-        </header>
-
-        <!-- About Section -->
-        <section id="About">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">About Me</h2>  <!-- First part of scroll --> 
-                        <h3 class="section-subheading text-muted"> Seattle, WA </h3>
-                    </div> 
-                </div>
-                <div class="row text-center">
-
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fa fa-android fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="service-heading">Artificial Intelligence</h4>
-                        <p class="text-muted">Ph.D. student focusing on Computer Vision, Machine Learning, and Deep Learning.</p>
-                    </div>
-
-
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">    <!-- fa 指的是 font awesome。进官网看documentation: http://fortawesome.github.io/Font-Awesome/cheatsheet/-->
-                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="service-heading">Mathematics</h4>
-                        <p class="text-muted">Studied discrete math and theoretical computer science: Algorithm, randomized algorithm, and graph theory. </p>
-                    </div>
-
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fa fa-search-plus fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="service-heading">Autism Research</h4>
-                        <p class="text-muted"> As a Research Fellow in Seattle Children's Research Institute and Yale University, I focus on Eye Tracking, Video Game, and Visual Reality for autism.</p>
-                    </div>
-
-
-                </div>
-            </div>
-        </section>
-
-        <!-- Portfolio Grid Section 图片大小必须为为正方形，显得consistent，高度限制在 300 px -->
-        <section id="Works" class="bg-light-gray">
-            <div class="container">
-                <!-- Header for this section -->
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">Works</h2>
-                        <h3 class="section-subheading text-muted"> Current and Past Projects, Works, Publications, and Products </h3>
-                    </div>
-                </div>
-
-                <div class="row" style="align:center">
-
-                    <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a href="#publications" class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-book fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/project/signal_Sphero.jpg" style="height:300px"  class="img-responsive" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>Publications</h4>
-                            <p class="text-muted">Selected Papers</p>
-                        </div>
-                    </div>
-
-
-                    <!--
-                        <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a href="#private_projects" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                        <i class="fa fa-windows fa-3x"></i>
-                        </div>
-                        </div>
-                        <img src="img/project/stageplay1.PNG" style="height:300px" class="img-responsive" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                        <h4>Private Projects</h4>
-                        <p class="text-muted">iOS Apps</p>
-                        </div>
-                        </div>
-                    -->
-
-                    <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a href="#teachings" class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-user fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/project/complexity.jpg" style="height:300px" class="img-responsive" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>Teachings</h4>
-                            <p class="text-muted">Instruction Assistant</p>
-                        </div>
-                    </div>
-
-
-                    <!--
-                        <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a href="http://beibinli.com/blogs" target="_blank" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                        <i class="fa fa-file fa-3x"></i>
-                        </div>
-                        </div>
-                        <img src="img/project/blog.png" style="height:300px" class="img-responsive" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                        <h4>Blog</h4>
-                        <p class="text-muted">Personal Diaries (new page)</p>
-                        </div>
-                        </div>
-                    -->
-
-
-
-                    <!--  Other Projects... Todo... 以后慢慢放进来  -->
-                </div>  <!-- end row for projects -->
-            </div>  <!-- end container -->
-        </section>
-
-        <!-- Callout -->
-        <aside class="callout">
-
-            <div class="text-vertical-center">
-                <h1> Curriculum Vitae </h1>
-                <li><a href="moderncv/cv_beibinli.pdf" target="_blank"><i class="fa fa-file-text-o fa-3x"></i></a>
-                </li>
-            </div>
-        </aside>
-
-
-
-
-        <!-- About Section -->
-        <section id="Footprint">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">Experience</h2>
-                        <h3 class="section-subheading text-muted">Seattle Children's Research Institute</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <ul class="timeline">
-
-                            <li class="timeline-inverted">
-                                <div class="timeline-image">
-                                    <img class="img-circle img-responsive" src="img/footprint/uw_cse.png" alt="">
-                                </div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h4>2017 - Now</h4>
-                                        <h4 class="subheading"> Paul G. Allen School of<br>Computer Science and Engineering</h4>
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p class="text-muted"> Ph.D. student in Computer Vision and Machine Learning </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="timeline-image">
-                                    <img class="img-circle img-responsive" src="img/footprint/seattle_childrens.jpeg" alt="">
-                                </div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h4>2016 - Now</h4>
-                                        <h4 class="subheading"> Seattle Children's Research Institute </h4>
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p class="text-muted"> Research Associate in Computer Imaging </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="timeline-inverted">
-                                <div class="timeline-image">
-                                    <img class="img-circle img-responsive" src="img/footprint/Yale.jpg" alt="">
-                                </div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h4>2015 - 2017</h4>
-                                        <h4 class="subheading"> School of Medicine, Yale University   </h4>
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p class="text-muted"> Research Fellow in Child Study Center </p>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="timeline-image">
-                                    <img class="img-circle img-responsive" src="img/footprint/umich.png" alt="">
-                                </div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h4>2013 - 2015</h4>
-                                        <h4 class="subheading">University of Michigan, Ann Arbor</h4>
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p class="text-muted">Double Major: Computer Science, Mathematics. <br> Researcher in UMTRI  </p>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="timeline-inverted">
-                                <div class="timeline-image">
-                                    <img class="img-circle img-responsive" src="img/footprint/rhodes.png" alt="">
-                                </div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h4>2010, 2012</h4>
-                                        <h4 class="subheading">Rhodes College</h4>
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p class="text-muted">Studied Mathematics in Rhodes College in Memphis, Tennessee, USA. Great experience there!</p>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="timeline-image">
-                                    <img class="img-circle img-responsive" src="img/footprint/shenzhong2.png" alt=""> 
-                                </div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h4>2007-2010</h4>
-                                        <h4 class="subheading">Shenzhen Middle School</h4>
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p class="text-muted">Student at 深圳中学</p>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="timeline-inverted">
-                                <div class="timeline-image">
-                                    <h4>	Contribute,
-                                        <br> Innovate,
-                                        <br> & enjoy. </h4>
-                                </div>
-                            </li>
-
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-
-
-
-        <!-- Image Section -->
-        <section id="Image" class="bg-light-gray">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">  Images </h2>
-                        <h3 class="section-subheading text-muted"> Photo, screenshot, visualization </h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-3 col-sm-6">
-                        <img class="img-circle photo"  src="img/photo/mingjing.JPG" alt="">
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <img class="img-circle photo" src="img/photo/me.jpg" alt="">
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <img class="img-circle photo"  src="img/photo/sp_dbscan.png" alt="">
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <img class="img-circle photo" src="img/photo/shirt.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- contact Section -->
-        <section id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">contact Me</h2>
-                        <h3 class="section-subheading"  style="color:rgb(255,255,255);font-size:150%" >
-                            <!--
-                                beibin.li [at] seattlechildrens [dot] org  <br><br>
-                                beibin.li [at] yale [dot] edu <br><br>
-                                libe [at] umich [dot] edu <br><br>
-                                beibin [at] uw [dot] edu <br><br>
-                            -->
-                        </h3>
-                    </div>
-                </div>
-
-
-                <!--  I do not use skype now.
-                    <script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
-                    <div id="SkypeButton_Call_beibin79_1" class = "text-center">
-                        <script type="text/javascript">
-                            Skype.ui({
-                  "name": "chat",
-                  "element": "SkypeButton_Call_beibin79_1",
-                  "participants": ["beibin79"],
-                  "imageSize": 32
-                });
-                        </script>
-                    </div>
-                    -->
-
-                    <!-- contact form.   Error in mail/contact_me.php    Not usable in static host. Disabled.
-                        <div class="row">
-                        <div class="col-lg-12">
-                        <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row">
-                        <div class="col-md-6">
-                        <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
-                        <p class="help-block text-danger"></p>
-                        </div>
-                        <div class="form-group">
-                        <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
-                        <p class="help-block text-danger"></p>
-                        </div>
-                        <div class="form-group">
-                        <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
-                        <p class="help-block text-danger"></p>
-                        </div>
-                        </div>
-                        <div class="col-md-6">
-                        <div class="form-group">
-                        <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                        <p class="help-block text-danger"></p>
-                        </div>
-                        </div>
-                        <div class="clearfix"></div>
-                        <div class="col-lg-12 text-center">
-                        <div id="success"></div>
-                        <button type="submit" class="btn btn-xl">Send Message</button>
-                        </div>
-                        </div>
-                        </form>
-                        </div>
-                        </div>
-                    -->
-            </div>
-        </section>
-
-
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <span class="copyright">Copyright &copy; Beibin Li 2018</span>
-                    </div>
-                    <div class="col-md-4">
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://twitter.com/beibin79" target="_blank"><i class="fa fa-twitter"></i></a>  <!--target="_blank" 代表新窗口打开. fa-twitter 在 fontawesome里面 -->
-                            </li>
-                            <li><a href="https://cn.linkedin.com/pub/beibin-li/21/5b1/684" target="_blank"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                            <li><a href="https://github.com/BeibinLi" target="_blank"><i class="fa fa-github"></i></a> 
-                            </li>
-                            <li><a href="tencent://message/?uin=532833875" target="_blank"><i class="fa fa-qq"></i></a>
-                            </li>
-                            <li><a href="http://www.weibo.com/jsbeh" target="_blank"><i class="fa fa-weibo"></i></a>
-                            </li>
-                            <li><a href="moderncv/cv_beibinli.pdf" target="_blank"><i class="fa fa-file-text-o"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- 暂时不需要这两项，右下角黄色两个标签。
-                        <div class="col-md-4">
-                        <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
-                        </li>
-                        <li><a href="#">Terms of Use</a>
-                        </li>
-                        </ul>
-                        </div>
-                    -->
-                </div>
-            </div>
-        </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <!-- Portfolio Modals -->
-        <!-- Use the modals below to showcase details about your portfolio projects! -->
-
-        <!-- Portfolio Modal 1 -->
-        <div class="portfolio-modal modal fade" id="private_projects" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2> StagePlay: for Drama Players</h2>
-                                <p class="item-intro text-muted">iOS App to prepare drama and plays.</p>
-                                <img class="img-responsive img-centered" src="img/project/stageplay2.PNG" alt="">
-                                <p>A tool for drama enthusiasts to memorize lines and practice scripts, and its available now!  We aim to make collaboration with partners as simple as a button press and as effective as having each other in the same room. </p>
-                                <p>
-                                Download not available from <a href="https://itunes.apple.com/us/app/stageplay/id984998234">App Store</a> anymore </p>
-                                <ul class="list-inline">
-                                    <li>Date: April 2015</li>
-                                    <li>Platform: iOS, iPhone, iPad</li>
-                                    <li>Category: Efficiency</li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Portfolio Modal 2 -->
-        <div class="portfolio-modal modal fade" id="teachings" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h2>EECS 376: Theory of Computation</h2>
-                                <p class="item-intro text-muted">Known as Foundations of Computer Science, is a theoretical course in University of Michigan</p>
-                                <img class="img-responsive img-centered" src="img/project/sipser.jpg" alt="">
-                                <p><a href="https://drive.google.com/drive/u/1/#folders/0B1uC_2gHi-TDTzlycVQ0dk91OEk/0B1uC_2gHi-TDbGtMa0hQR2d3OFk" target="_blank">EECS 376</a> is an interesting introduction course on Finite Automata, CFL, Turing Machine, NP-Complete, Approximation Algorithm and Randomized Algorithm </p>
-
-                                <p> Discussion section:  Wednesday 2:00 PM at 1003 EECS.</p>
-                                <p> Office Hour: Friday 3-4 PM at BBB. (I often arrive at 2:50)</p>
-                                <p>You can preview this Course <a href="https://drive.google.com/drive/u/1/#folders/0B1uC_2gHi-TDTzlycVQ0dk91OEk/0B1uC_2gHi-TDbGtMa0hQR2d3OFk" target="_blank">here</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Portfolio Modal 3 -->
-        <div class="portfolio-modal modal fade" id="publications" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Selected Publications</h2>
-                                <p class="item-intro text-muted">Last Update: April/25/2018 </p>
-                                <img class="img-responsive img-centered" src="img/project/etra_volunteer.jpg" alt="">
-                                <p>This photo credits to Pernilla Qvafordt at ETRA 2016 conference. In the photo, from nearest to furthest, Soha Rostaminia, Hana Vrzakova, and I are the student volunteers who were preparing the opening ceremony of the conference.<p>
-                                <hr>
-                                <h3> Conference Papers </h3>
-                                <br>
-                                <p style="font-size:120%"><a href="docs/publications/EF_Game_2018.pdf" style="color:rgb(0,0,102)" target="_blank">Li, B., Atyabi, A., Kim, M., Barney, E., Ahn, A., Luo, Y., Aubertine, M., Corrigan, S., John, T., Wang, Q., Mademtzi, M., Best, M., & Shic, F.  Social Influences on Executive Functioning in Autism: Design of a Mobile Gaming Platform. 
-                                    In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems.
-                                    (SIGCHI 2018)</a> </p>
-                                <br>
-                                <p style="font-size:120%"><a href="docs/publications/FreeSpeech_IJCNN.pdf" style="color:rgb(0,0,102)" target="_blank"> Atyabi, A., Li, B., Ahn, A. Y., Kim, M., Barney, E., & Shic, F.. An Exploratory analysis targeting diagnostic classification of AAC app usage patterns. IEEE International Joint Conference on Neural Networks (IJCNN 2017).   </a> </p>
-                                <br>
-                                <p style="font-size:120%"><a href="http://scazlab.yale.edu/sites/default/files/files/boccanfuso_ROMAN_2016.pdf" style="color:rgb(0,0,102)" target="_blank"> Boccanfuso, L., Wang, Q., Leite, I., Li, B., Torres, C., Chen, L., Salomons, N., Foster, C., Barney, E., Ahn, Y., Scassellati, B., & Shic, F.. A Thermal Emotion Classifier for Improved Human-Robot Interaction. IEEE International Symposium on Robot and Human Interactive Communication 2016 (RO-MAN 2016).  </a> </p>
-                                <br>
-                                <p style="font-size:120%"><a href="docs/publications/Human_Robot_Activity_Classification_Based_on_Accelerometer_and_Gyroscope.pdf" style="color:rgb(0,0,102)" target="_blank"> Li, B., Boccanfuso, L., Wang, Q., & Shic, F.. Human Robot Activity Classification based on Accelerometer and Gyroscope. IEEE International Symposium on Robot and Human Interactive Communication 2016 (RO-MAN 2016).  </a> </p>
-                                <br>
-                                <p style="font-size:120%;"><a href="docs/publications/MDBSCAN.pdf" style="color:rgb(0,0,102)" target="_blank">Li, B., Wang, Q., Barney, E., Hart, L., Wall, C., Chawarska, K., ... & Shic, F.  (2016, March). Modified DBSCAN algorithm on oculomotor fixation identification.  In Proceedings of the Ninth Biennial ACM Symposium on Eye Tracking Research & Applications (pp. 337-338). ACM.  </a> </p>
-                                <br>
-                                <p style="font-size:120%;"><a href="docs/publications/optimal_IDD.pdf" style="color:rgb(0,0,102)" target="_blank">  Li, B., Wang, Q., Boccanfuso, L., & Shic, F. (2016, March). Optimality of the distance dispersion fixation identification algorithm. In Proceedings of the Ninth Biennial ACM Symposium on Eye Tracking Research & Applications (pp. 339-340).  ACM.  </a> </p>
-                                <br>
-                                <p style="font-size:120%"><a href="docs/publications/thermographic_eye_tracking.pdf" style="color:rgb(0,0,102)" target="_blank"> Wang, Q., Boccanfuso, L., Li, B., Ahn, A. Y. J., Foster, C. E., Orr, M. P., ... & Shic, F. (2016, March). Thermographic eye tracking. In Proceedings of the Ninth Biennial ACM Symposium on Eye Tracking Research & Applications (pp. 307-310).  ACM.  </a> </p>
-                                <br>
-                                <hr>
-                                <br>
-
-                                <h3> Talks and Presentations </h3>
-                                <br>
-                                <p style="font-size:120%"><a href="" style="color:rgb(0,0,102)" target="_blank">
-                                    Leveraging Usage Data behind Mobile Apps for Children with ASD,
-                                    University of Washington, Seattle, WA.,
-                                    Jan. 2017 </a> </p>
-
-                                <p style="font-size:120%"><a href="" style="color:rgb(0,0,102)" target="_blank">
-                                    Low Cost and Portable Eye Tracker,
-                                    Center For Children With Special Needs, Glastonbury, CT.,
-                                    Feb. 2016 </a> </p>
-
-                                <p style="font-size:120%"><a href="" style="color:rgb(0,0,102)" target="_blank">
-                                    Background Music and Sound Effects in Human-Robot Interaction.
-                                    Northeast Robotics Colloquium 2015.
-                                    Worcester Polytechnic Institute, Worcester, MA
-                                    Nov. 2015 </a> </p>
-
-                                <br>
-                                <hr>
-                                <br>
-
-                                <h3> Posters </h3>
-                                <br>
-                                <p style="font-size:120%"><a href="docs/posters/EF_Game.jpg" style="color:rgb(0,0,102)" target="_blank"> Leveraging AAC Usage Patterns for Diagnostic Classification: A Proof of Concept 
-                                </a> </p>
-                                <p style="font-size:120%"><a href="docs/posters/FreeSpeech.jpg" style="color:rgb(0,0,102)" target="_blank"> A Mobile Video Game for Studying Social and Nonsocial Executive Functions in Children with ASD </a> </p>
-                                <p style="font-size:120%"><a href="docs/posters/optimality.pdf" style="color:rgb(0,0,102)" target="_blank"> Optimality of the Distance Dispersion Fixation Identification Algorithm </a> </p>
-                                <p style="font-size:120%"><a href="docs/posters/mdbscan.pdf" style="color:rgb(0,0,102)" target="_blank"> Modified DBSCAN Algorithm on Oculomotor Fixation Identification </a> </p>
-                                <p style="font-size:120%"><a href="docs/posters/NERC2015_poster.pdf" style="color:rgb(0,0,102)" target="_blank"> Background Music and Sound Effects in Human-Robot Interaction </a> </p>
-
-
-
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-        <!-- jQuery -->
-        <script src="js/jquery.js"></script>
-
-        <!-- Bootstrap Core JavaScript -->
-        <script src="js/bootstrap.min.js"></script>
-
-        <!-- Plugin JavaScript -->
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-        <script src="js/classie.js"></script>
-        <script src="js/cbpAnimatedHeader.js"></script>
-
-        <!-- contact Form JavaScript -->
-        <script src="js/jqBootstrapValidation.js"></script>
-        <script src="js/contact_me.js"></script>
-
-        <!-- Custom Theme JavaScript -->
-        <script src="js/agency.js"></script>
-
-    </body>
-
-</html>
-
-
-<!-- Template from: http://startbootstrap.com/template-overviews/agency/ -->
-<!-- Special thanks to startbootstrap -->
+<h1 id="beibin-li">Beibin Li</h1>
+<p><img src="img/me.jpg" alt="drawing" width="100" align="right" HSPACE=50 VSPACE=50/></p>
+<p><a href="">Curriculum Vitae</a> beibin@uw.edu</p>
+<p><br></p>
+<ul>
+<li>Paul G. Allen School of Computer Science and Engineering, University of Washington</li>
+<li>Affiliated Groups: <a href="https://nknuecht.github.io/ShapiroLab/">Shapiro Lab</a> <a href="http://arl.cs.washington.edu/ferg/people.html">FERG Group</a> <a href="https://realitylab.uw.edu/">Reality Lab</a></li>
+</ul>
+<p><br></p>
+<p>As a second-year Ph.D. student at University of Washington, I focus on computer vision and machine learning. I work with Prof. Linda Shapiro and Prof. Frederick Shic to diagnose and intervene Autism Spectrum Disorder by using eye tracking, facial expression detection, and augmented reality. I also work on medical data analysis including MRI, fMRI, and fNIRS. I want to create elegant mathematical and novel algorithmic methods to solve hard problems with few labeled data.</p>
+<h2 id="publication">Publication</h2>
+<h3 id="social-influences-on-executive-functioning-in-autism-design-of-a-mobile-gaming-platform">Social Influences on Executive Functioning in Autism: Design of a Mobile Gaming Platform</h3>
+<p>Li, B., Atyabi, A., Kim, M., Barney, E., Ahn, A., Luo, Y., Aubertine, M., Corrigan, S., John, T., Wang, Q., Mademtzi, M., Best, M., &amp; Shic, F.</p>
+<p>In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (p. 443) (ACM SIGCHI 2018).</p>
+<p><a href="docs/publications/EF_Game_2018.pdf">PDF</a></p>
+<h3 id="an-exploratory-analysis-targeting-diagnostic-classification-of-aac-app-usage-patterns">An Exploratory Analysis Targeting Diagnostic Classification of AAC App Usage Patterns</h3>
+<p>Atyabi, A., Li, B., Ahn, A., Kim, M., Barney, E., &amp; Shic, F.</p>
+<p>In IEEE International Joint Conference on Neural Networks (IEEE IJCNN 2017)</p>
+<p><a href="docs/publications/FreeSpeech_IJCNN.pdf">PDF</a></p>
+<h3 id="hybrid-calibration-for-eye-tracking-smooth-pursuit-trajectory-with-anchor-points">Hybrid Calibration for Eye Tracking: Smooth Pursuit Trajectory with Anchor Points</h3>
+<p>Wang, Q, , Barney, E., Wall, C., Dinicola, L., Foster, C., Ahn, Y., Li, B., &amp; Shic, F.</p>
+<p>In Journal of Vision 16(12):1355. September 2016.</p>
+<p><a href="https://www.researchgate.net/publication/307895971_Hybrid_Calibration_for_Eye_Tracking_Smooth_Pursuit_Trajectory_with_Anchor_Points">Link</a></p>
+<h3 id="a-thermal-emotion-classifier-for-improved-human-robot-interaction">A Thermal Emotion Classifier for Improved Human-Robot Interaction</h3>
+<p>Boccanfuso, L., Wang, Q., Leite, I., Li, B., Torres, C., Chen, L., Salomons, N., Foster, C., Barney, E., Ahn, Y., Scassellati, B., &amp; Shic, F.</p>
+<p>In IEEE International Symposium on Robot and Human Interactive Communication 2016 (IEEE RO-MAN 2016).</p>
+<p><a href="docs/publications/A_thermal_emotion_classifier_for_improved_human_robot_interaction.pdf">PDF</a></p>
+<h3 id="human-robot-activity-classification-based-on-accelerometer-and-gyroscope">Human Robot Activity Classification based on Accelerometer and Gyroscope</h3>
+<p>Li, B., Boccanfuso, L., Wang, Q., &amp; Shic, F.</p>
+<p>In IEEE International Symposium on Robot and Human Interactive Communication 2016 (IEEE RO-MAN 2016).</p>
+<p><a href="docs/publications/Human_Robot_Activity_Classification_Based_on_Accelerometer_and_Gyroscope.pdf">PDF</a></p>
+<h3 id="thermographic-eye-tracking">Thermographic eye tracking</h3>
+<p>Wang, Q., Boccanfuso, L., Li, B., Ahn, A. Y. J., Foster, C. E., Orr, M. P., ... &amp; Shic, F.</p>
+<p>In Proceedings of the Ninth Biennial ACM Symposium on Eye Tracking Research and Applications (pp. 307-310). ACM. (ACM ETRA 2016).</p>
+<p><a href="docs/publications/thermo_eye_tracking.pdf">PDF</a></p>
+<h3 id="modified-dbscan-algorithm-on-oculomotor-fixation-identification">Modified DBSCAN algorithm on oculomotor fixation identification</h3>
+<p>Li, B., Wang, Q., Barney, E., Hart, L., Wall, C., Chawarska, K., ... &amp; Shic, F.</p>
+<p>In Proceedings of the Ninth Biennial ACM Symposium on Eye Tracking Research and Applications (pp. 337-338). ACM. (ACM ETRA 2016).</p>
+<p><a href="docs/publications/MDBSCAN.pdf">PDF</a> <a href="https://github.com/BeibinLi/MDBSCAN">Code</a></p>
+<h3 id="optimality-of-the-distance-dispersion-fixation-identification-algorithm">Optimality of the distance dispersion fixation identification algorithm</h3>
+<p>Li, B., Wang, Q., Boccanfuso, L., &amp; Shic, F.</p>
+<p>In Proceedings of the Ninth Biennial ACM Symposium on Eye Tracking Research and Applications (pp. 339-340). ACM. (ACM ETRA 2016).</p>
+<p><a href="docs/publications/optimal_IDD.pdf">PDF</a></p>
+<h2 id="teaching">Teaching</h2>
+<h3 id="cse-546-machine-learning">CSE 546: Machine Learning</h3>
+<p>2018 Fall, University of Washington <a href="https://courses.cs.washington.edu/courses/cse546/18au/">Course Website</a></p>
+<p><em>Teaching Assistant</em></p>
+<p>Explores methods for designing systems that learn from data and improve with experience. Supervised learning and predictive modeling; decision trees, rule induction, nearest neighbors, Bayesian methods, neural networks, support vector machines, and model ensembles. Unsupervised learning and clustering.</p>
+<h3 id="eecs-376-foundation-of-computer-science-theory-of-computation">EECS 376: Foundation of Computer Science (Theory of Computation)</h3>
+<p>2015 Spring, University of Michigan</p>
+<p><em>Teaching Assistant</em></p>
+<p>Introduction to theory of computation. Models of computation: finite state machines, Turing machines. Decidable and undecidable problems. Polynomial time computability and paradigms of algorithm design. Computational complexity emphasizing NP-hardness. Coping with intractability. Exploiting intractability: cryptography.</p>
+<h2 id="education">Education</h2>
+<table style="width:100%;">
+<colgroup>
+<col width="16%" />
+<col width="21%" />
+<col width="22%" />
+<col width="26%" />
+<col width="12%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td align="center">2017 - Current</td>
+<td align="center">Ph.D. Student</td>
+<td align="center">Computer Science and Engineering</td>
+<td align="center">University of Washington</td>
+<td align="center">Seattle, WA</td>
+</tr>
+<tr class="even">
+<td align="center">Graduated 2015</td>
+<td align="center">Bachelor of Science</td>
+<td align="center">Mathematics</td>
+<td align="center">University of Michigan</td>
+<td align="center">Ann Arbor, MI</td>
+</tr>
+<tr class="odd">
+<td align="center">Graduated 2015</td>
+<td align="center">Bachelor of Science</td>
+<td align="center">Computer Science</td>
+<td align="center">University of Michigan</td>
+<td align="center">Ann Arbor, MI</td>
+</tr>
+</tbody>
+</table>
+<h2 id="experience">Experience</h2>
+<table style="width:100%;">
+<colgroup>
+<col width="16%" />
+<col width="21%" />
+<col width="22%" />
+<col width="26%" />
+<col width="12%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td align="center">2016 - 2017</td>
+<td align="center">Research Associate</td>
+<td align="center">SCITL</td>
+<td align="center">Seattle Children's Research Institute</td>
+<td align="center">Seattle, WA</td>
+</tr>
+<tr class="even">
+<td align="center">2015 - 2016</td>
+<td align="center">Research Fellow</td>
+<td align="center">Technology Innovation Lab</td>
+<td align="center">Yale University</td>
+<td align="center">New Haven, CT</td>
+</tr>
+</tbody>
+</table>
+<style>
+* { padding: 0; margin: 0 10 0 10; }
+body {
+  margin: 0 auto 0 auto;
+  padding: 0;
+  max-width: 1200px;
+  font-family: "Avenir", "Avenir Next", Helvetica Neue, Arial;
+  font-size: 0.95em;
+}
+a, a:visited { text-decoration: none; color: #7533f4; }
+a:hover { text-decoration: underline; color: #f4b014; }
+h1, h2, h3, h4, h5 {
+  color: #492a7c;
+  background-color: inherit;
+  font-weight: normal;
+  padding: 0 0 5px 0;
+  margin: 15px 0 0 0;
+  border: none;
+  clear: none;
+}
+h1 { font-size: 24pt; margin:  5px 0 10px 0; line-height: 28px; }
+h2 { font-size: 14pt; margin: 30px 0 15px 0; letter-spacing: 0.01em; border-bottom: 1px solid #ccc;  line-height: 20px;}
+h3 { font-size: 13pt; }
+h4 { font-size: 12pt; }
+h5 { font-size: 11pt; }
+p { 
+    margin: 0 0 0 0;
+    text-indent:0px;
+}
+.content {
+  margin: 0;
+  padding: 15px 20px;
+  background-color: #ffffff;
+}
+.title, .title h1, .title a {
+  color: #492a7c;
+  font-size: 24pt;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+.footer {
+  border-top: 1px solid #ccc;
+  margin-top: 30px;
+  padding-top: 4px;
+  text-align: right;
+  font-size: 12px;
+}
+.footer a {
+  color: #21346B;
+}
+.footer a:hover {
+  color: #ce3333;
+}
+
+table {
+    display:table;
+    width:100%;
+}
+</style>
