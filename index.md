@@ -2,7 +2,7 @@
 
 <img src="img/me.jpg" alt="drawing" width="100" align="right" HSPACE=50 VSPACE=50/>
 
-[Curriculum Vitae]()
+[Curriculum Vitae](cv_beibinli.pdf)
 beibin@uw.edu
 
 <br>
