@@ -1,3 +1,7 @@
+<link rel="stylesheet" href="uw.css">
+
+<br> <br>
+
 # Beibin Li
 
 <img src="img/me.jpg" alt="drawing" width="100" align="right" HSPACE=50 VSPACE=50/>
@@ -119,63 +123,6 @@ Introduction to theory of computation.  Models of computation: finite state mach
 | 2016 - 2017 | Research Associate  | SCITL  | Seattle Children's Research Institute |  Seattle, WA|
 | 2015 - 2016 | Research Fellow | Technology Innovation Lab | Yale University | New Haven, CT |
 
+<br> <br>
 
-<style>
-* { padding: 0; margin: 0 10 0 10; }
-body {
-  margin: 0 auto 0 auto;
-  padding: 0;
-  max-width: 1200px;
-  font-family: "Avenir", "Avenir Next", Helvetica Neue, Arial;
-  font-size: 0.95em;
-}
-a, a:visited { text-decoration: none; color: #7533f4; }
-a:hover { text-decoration: underline; color: #f4b014; }
-h1, h2, h3, h4, h5 {
-  color: #492a7c;
-  background-color: inherit;
-  font-weight: normal;
-  padding: 0 0 5px 0;
-  margin: 15px 0 0 0;
-  border: none;
-  clear: none;
-}
-h1 { font-size: 24pt; margin:  5px 0 10px 0; line-height: 28px; }
-h2 { font-size: 14pt; margin: 30px 0 15px 0; letter-spacing: 0.01em; border-bottom: 1px solid #ccc;  line-height: 20px;}
-h3 { font-size: 13pt; }
-h4 { font-size: 12pt; }
-h5 { font-size: 11pt; }
-p { 
-    margin: 0 0 0 0;
-    text-indent:0px;
-}
-.content {
-  margin: 0;
-  padding: 15px 20px;
-  background-color: #ffffff;
-}
-.title, .title h1, .title a {
-  color: #492a7c;
-  font-size: 24pt;
-  margin-bottom: 20px;
-  margin-top: 5px;
-}
-.footer {
-  border-top: 1px solid #ccc;
-  margin-top: 30px;
-  padding-top: 4px;
-  text-align: right;
-  font-size: 12px;
-}
-.footer a {
-  color: #21346B;
-}
-.footer a:hover {
-  color: #ce3333;
-}
 
-table {
-    display:table;
-    width:100%;
-}
-</style>
