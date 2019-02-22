@@ -14,6 +14,7 @@ beibin@uw.edu
 - Paul G. Allen School of Computer Science and Engineering, University of Washington
 - Affiliated Groups: 
 [Shapiro Lab](https://nknuecht.github.io/ShapiroLab/)
+[SCITL](https://www.seattlechildrens.org/research/centers-programs/child-health-behavior-and-development/labs/seattle-childrens-innovative-technologies-lab-scitl/) 
 [FERG Group](http://arl.cs.washington.edu/ferg/people.html) 
 [Reality Lab](https://realitylab.uw.edu/) 
 
