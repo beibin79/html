@@ -28,6 +28,12 @@ I also work on medical data analysis including MRI, fMRI, and fNIRS. I want to c
 
 ## Publication
 
+### A Facial Affect Analysis System for Autism Spectrum Disorder
+Li, B.; Mehta, S.; Aneja, D.; Foster, C.; Ventola, P.; Shic, F.; Shapiro, L.
+
+In Proceedings of the IEEE International Conference on Image Processing (ICIP 2019)
+
+_PDF and Code coming soon_
 
 ### Social Influences on Executive Functioning in Autism: Design of a Mobile Gaming Platform
 
