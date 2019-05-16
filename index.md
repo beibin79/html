@@ -33,7 +33,7 @@ Li, B.; Mehta, S.; Aneja, D.; Foster, C.; Ventola, P.; Shic, F.; Shapiro, L.
 
 In Proceedings of the IEEE International Conference on Image Processing (ICIP 2019)
 
-_PDF and Code coming soon_
+[ArXiv](https://arxiv.org/abs/1904.03616) _Code coming soon_
 
 ### Social Influences on Executive Functioning in Autism: Design of a Mobile Gaming Platform
 
@@ -98,15 +98,6 @@ In Proceedings of the Ninth Biennial ACM Symposium on Eye Tracking Research and 
 
 
 ## Teaching
-
-### CSE 473: Introduction to Artificial Intelligence
-2019 Winter,  University of Washington  [Course Website](https://courses.cs.washington.edu/courses/cse473/19wi/)
-
-_Teaching Assistant_
-
-Principal ideas and developments in artificial intelligence: Problem solving and search, game playing, knowledge representation and reasoning, uncertainty, probabilistic graphical models, machine learning, reinforcement learning, natural language processing, etc.
-
-
 
 
 ### CSE 546: Machine Learning
