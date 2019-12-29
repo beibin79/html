@@ -20,7 +20,7 @@ beibin@uw.edu
 
 <br> 
 
-As a second-year Ph.D. student at University of Washington, I focus on computer vision and machine learning. 
+As a Ph.D. student at University of Washington, I focus on computer vision and machine learning. 
 I work with Prof. Linda Shapiro and Prof. Frederick Shic to diagnose and intervene Autism Spectrum Disorder by using eye tracking, facial expression detection, and augmented reality. 
 I also work on medical data analysis including MRI, fMRI, and fNIRS. I want to create elegant mathematical and novel algorithmic methods to solve hard problems with few labeled data.
 
@@ -33,7 +33,7 @@ Li, B.; Mehta, S.; Aneja, D.; Foster, C.; Ventola, P.; Shic, F.; Shapiro, L.
 
 In Proceedings of the IEEE International Conference on Image Processing (ICIP 2019)
 
-[ArXiv](https://arxiv.org/abs/1904.03616) _Code coming soon_
+[ArXiv](https://arxiv.org/abs/1904.03616), [Code](https://github.com/BeibinLi/affspec)
 
 ### Social Influences on Executive Functioning in Autism: Design of a Mobile Gaming Platform
 
