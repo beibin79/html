@@ -123,7 +123,7 @@ In _Proceedings of the Ninth Biennial ACM Symposium on Eye Tracking Research and
 ## Teaching
 
 ### CSE 455: Computer Vision
-2019 Winter,  University of Washington  [Course Website](https://courses.cs.washington.edu/courses/cse455/20sp/)
+2020 Spring,  University of Washington  [Course Website](https://courses.cs.washington.edu/courses/cse455/20sp/)
 
 _Teaching Assistant_
 
