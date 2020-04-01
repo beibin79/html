@@ -1,3 +1,7 @@
+% Beibin' Homepage
+% Beibin Li
+% March/31/2020
+
 <link rel="stylesheet" href="uw.css">
 
 <br> <br>
@@ -34,7 +38,7 @@ Li, B.; Barney, E.; Hudac, C.; Nuechterlein, N.;  Ventola, P.; Shapiro, L.; Shic
 
 In _Proceedings of the Ninth Biennial ACM Symposium on Eye Tracking Research and Applications_. ACM. (ACM ETRA 2020).
 
-Paper Coming Soon; Code Coming Soon
+[[PDF]](docs/publications/selection_ET_stimuli_SGIN_biomarker_autism.pdf), [[Code]](http://github.com/beibinli/SGIN)
 
 
 ### MLCD: A Unified Software Package for Cancer Diagnosis.
@@ -42,21 +46,21 @@ Wu, W.; Li, B.; Ezgi, M.;  Mehta, S.;  Bartlett, J.;  Weaver, D.; Elmore, J.; Sh
 
 In _Journal of Clinical Oncology_ (JCO). 2020
 
-Paper Coming Soon; [Code](https://github.com/cancertech/cancer_diagnosis); [Website](https://cancertech.cs.washington.edu/)
+[[Link]](https://ascopubs.org/doi/full/10.1200/CCI.19.00129), [[PDF]](https://ascopubs.org/doi/pdfdirect/10.1200/CCI.19.00129), [[Code]](https://github.com/cancertech/cancer_diagnosis), [[Website]](https://cancertech.cs.washington.edu/)
 
 ### Sparsely Grouped Input Variables for Neural Networks.
 Li, B.; Nuechterlein, N.; Barney, E.; Hudac, C.; Ventola, P.; Shapiro, L.; Shic, F.
 
 _arXiv preprint arXiv:1911.13068_ (2019).
 
-[ArXiv](https://arxiv.org/abs/1911.13068); Code Coming Soon
+[[ArXiv]](https://arxiv.org/abs/1911.13068), [[Code]](http://github.com/beibinli/SGIN)
 
 ### A Facial Affect Analysis System for Autism Spectrum Disorder
 Li, B.; Mehta, S.; Aneja, D.; Foster, C.; Ventola, P.; Shic, F.; Shapiro, L.
 
 In _Proceedings of the IEEE International Conference on Image Processing_ (ICIP 2019)
 
-[ArXiv](https://arxiv.org/abs/1904.03616), [Code](https://github.com/BeibinLi/affspec), Travel Granted by IEEE
+[[ArXiv]](https://arxiv.org/abs/1904.03616), [[Code]](https://github.com/BeibinLi/affspec), [IEEE SPS Travel Grant]
 
 ### Social Influences on Executive Functioning in Autism: Design of a Mobile Gaming Platform
 
@@ -64,7 +68,7 @@ Li, B., Atyabi, A., Kim, M., Barney, E., Ahn, A., Luo, Y., Aubertine, M., Corrig
 
 In _Proceedings of the SIGCHI Conference on Human Factors in Computing Systems_ (p. 443) (ACM SIGCHI 2018).
 
-[PDF](docs/publications/EF_Game_2018.pdf) 
+[[PDF]](docs/publications/EF_Game_2018.pdf) 
 
 
 ### An Exploratory Analysis Targeting Diagnostic Classification of AAC App Usage Patterns
@@ -72,14 +76,14 @@ In _Proceedings of the SIGCHI Conference on Human Factors in Computing Systems_ 
 
  In _IEEE International Joint Conference on Neural Networks_ (IEEE IJCNN 2017)
 
-[PDF](docs/publications/FreeSpeech_IJCNN.pdf) 
+[[PDF]](docs/publications/FreeSpeech_IJCNN.pdf) 
 
 ### Hybrid Calibration for Eye Tracking: Smooth Pursuit Trajectory with Anchor Points
 Wang, Q, , Barney, E., Wall, C., Dinicola, L., Foster, C., Ahn, Y., Li, B., & Shic, F.
 
 In _Journal of Vision_ 16(12):1355. September 2016.
 
-[Link](https://www.researchgate.net/publication/307895971_Hybrid_Calibration_for_Eye_Tracking_Smooth_Pursuit_Trajectory_with_Anchor_Points) 
+[[Link]](https://www.researchgate.net/publication/307895971_Hybrid_Calibration_for_Eye_Tracking_Smooth_Pursuit_Trajectory_with_Anchor_Points) 
 
 
 ### A Thermal Emotion Classifier for Improved Human-Robot Interaction
@@ -87,21 +91,21 @@ Boccanfuso, L., Wang, Q., Leite, I., Li, B., Torres, C., Chen, L., Salomons, N.,
 
 In _IEEE International Symposium on Robot and Human Interactive Communication_ 2016 (IEEE RO-MAN 2016).
 
-[PDF](docs/publications/A_thermal_emotion_classifier_for_improved_human_robot_interaction.pdf) 
+[[PDF]](docs/publications/A_thermal_emotion_classifier_for_improved_human_robot_interaction.pdf) 
 
 ### Human Robot Activity Classification based on Accelerometer and Gyroscope
 Li, B., Boccanfuso, L., Wang, Q., & Shic, F.
 
 In _IEEE International Symposium on Robot and Human Interactive Communication_ 2016 (IEEE RO-MAN 2016).
 
-[PDF](docs/publications/Human_Robot_Activity_Classification_Based_on_Accelerometer_and_Gyroscope.pdf) 
+[[PDF]](docs/publications/Human_Robot_Activity_Classification_Based_on_Accelerometer_and_Gyroscope.pdf) 
 
 ### Thermographic eye tracking
 Wang, Q., Boccanfuso, L., Li, B., Ahn, A. Y. J., Foster, C. E., Orr, M. P., ... & Shic, F.
 
 In _Proceedings of the Ninth Biennial ACM Symposium on Eye Tracking Research and Applications_ (pp. 307-310). ACM. (ACM ETRA 2016).
 
-[PDF](docs/publications/thermo_eye_tracking.pdf) 
+[[PDF]](docs/publications/thermo_eye_tracking.pdf) 
 
 
 ### Modified DBSCAN algorithm on oculomotor fixation identification
@@ -109,21 +113,21 @@ Li, B., Wang, Q., Barney, E., Hart, L., Wall, C., Chawarska, K., ... & Shic, F.
 
 In _Proceedings of the Ninth Biennial ACM Symposium on Eye Tracking Research and Applications_ (pp. 337-338). ACM. (ACM ETRA 2016).
 
-[PDF](docs/publications/MDBSCAN.pdf) 
-[Code](https://github.com/BeibinLi/MDBSCAN)
+[[PDF]](docs/publications/MDBSCAN.pdf) 
+[[Code]](https://github.com/BeibinLi/MDBSCAN)
 
 ### Optimality of the distance dispersion fixation identification algorithm
 Li, B., Wang, Q., Boccanfuso, L., & Shic, F.
 
 In _Proceedings of the Ninth Biennial ACM Symposium on Eye Tracking Research and Applications_ (pp. 339-340). ACM. (ACM ETRA 2016).
 
-[PDF](docs/publications/optimal_IDD.pdf) 
+[[PDF]](docs/publications/optimal_IDD.pdf) 
 
 
 ## Teaching
 
 ### CSE 455: Computer Vision
-2020 Spring,  University of Washington  [Course Website](https://courses.cs.washington.edu/courses/cse455/20sp/)
+2020 Spring,  University of Washington.  [Course Website](https://courses.cs.washington.edu/courses/cse455/20sp/)
 
 _Teaching Assistant_
 
@@ -131,7 +135,7 @@ Introduction to image analysis and interpreting the 3D world from image data. To
 
 
 ### CSE 473: Introduction to Artificial Intelligence
-2019 Winter,  University of Washington  [Course Website](https://courses.cs.washington.edu/courses/cse473/19wi/)
+2019 Winter,  University of Washington.  [Course Website](https://courses.cs.washington.edu/courses/cse473/19wi/)
 
 _Teaching Assistant_
 
@@ -141,7 +145,7 @@ Principal ideas and developments in artificial intelligence: Problem solving and
 
 
 ### CSE 546: Machine Learning
-2018 Fall,  University of Washington  [Course Website](https://courses.cs.washington.edu/courses/cse546/18au/)
+2018 Fall,  University of Washington.  [Course Website](https://courses.cs.washington.edu/courses/cse546/18au/)
 
 
 _Teaching Assistant_
