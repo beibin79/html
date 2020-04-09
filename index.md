@@ -1,12 +1,9 @@
-% Beibin' Homepage
-% Beibin Li
-% March/31/2020
+% Beibin Li's Homepage
+% April/9th/2020
 
 <link rel="stylesheet" href="uw.css">
 
 <br> <br>
-
-# Beibin Li
 
 <img src="img/me.jpg" alt="drawing" width="100" align="right" HSPACE=50 VSPACE=50/>
 
