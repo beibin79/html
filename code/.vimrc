@@ -28,6 +28,10 @@ Plugin 'scrooloose/nerdtree' "File management   :NERDtree
 Plugin 'vim-syntastic/syntastic' "syntax check
 
 
+
+"F3 to toggle syntastic
+map <F3> :SyntasticToggleMode<CR>
+
 let g:syntastic_python_checkers = ['flake8']
 "let g:syntastic_python_checkers = ['pylint']
 
@@ -41,15 +45,20 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 1
 
+
+let g:syntastic_quiet_messages = { "type": "style" }
+
+
 "let g:syntastic_check_on_open = 1
 "let g:syntastic_check_on_wq = 1
 
 
 "ignore style check in flake8
-let g:syntastic_python_flake8_args='--ignore=E501,E225,E101,E111,E112,E113,E114,E115,E116,E121,E122,E123,E124,E125,E126,E127,E128,E129,E131,E133,E201,E202,E203,E211,E221,E222,E223,E224,E225,E226,E227,E228,E231,E241,E242,E251,E261,E262,E265,E266,E271,E272,E273,E274,E301,E302,E303,E304,E401,E402,E501,E502,E701,E702,E703,E704,E711,E712,E713,E714,E721,E731,E901,E902,W191,W291,W292,W293,W391,W503,W601,W602,W603,W604'
+let g:syntastic_python_flake8_args='--ignore=E501,E225,E101,E111,E112,E113,E114,E115,E116,E121,E122,E123,E124,E125,E126,E127,E128,E129,E131,E133,E201,E202,E203,E211,E221,E222,E223,E224,E225,E226,E227,E228,E231,E241,E242,E251,E261,E262,E265,E266,E271,E272,E273,E274,E301,E302,E303,E304,E401,E402,E501,E502,E701,E702,E703,E704,E711,E712,E713,E714,E721,E731,E901,E902,W191,W291,W292,W293,W391,W503,W601,W602,W603,W604,F401'
 
 "let g:syntastic_cpp_compiler = 'g++'
 "let g:syntastic_cpp_compiler_options = ' -std=c++11 -stdlib=libc++'
+
 
 
 Plugin 'vim-airline/vim-airline' " A display candy
@@ -197,11 +206,6 @@ au FileType cpp map <F5> <esc>:w\|!make%<CR><esc>
 au FileType sml map <F5> <esc>:w\|!sml%<CR><esc>
 au FileType markdown map <F5> <esc>:w\|!pandoc % -s -o %:r.html<CR><esc>
 au FileType markdown map <F6> <esc>:w\|!pandoc % -s -o %:r.pdf<CR><esc>
-
-
-au FileType python map <F3> <esc>gg\|:e /tmp/temp.py\|:bd /tmp/*.py\|:set number\|:set scrollbind\|:w\|let @a=system("python ShapeChecker.py -f " . expand('%:p') . " -c true" )<CR>\|:vs /tmp/temp.py<CR>\|:set scrollbind\|:set number<CR>
-au FileType python map <F4> <esc>gg\|:e /tmp/temp.py\|:bd /tmp/*.py\|:set number\|:set scrollbind\|:w\|let @a=system("python ShapeChecker.py -f " . expand('%:p') )<CR>\|:vs /tmp/temp.py<CR>\|:set scrollbind\|:set number\|:vertical resize 30<CR>
-
 
 
 
