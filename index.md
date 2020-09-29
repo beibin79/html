@@ -123,6 +123,13 @@ In _Proceedings of the Ninth Biennial ACM Symposium on Eye Tracking Research and
 
 ## Teaching
 
+### CSE 599B: AI and the Brain
+2020 Fall,  University of Washington.  [Course Website](https://courses.cs.washington.edu/courses/cse599b/20au/)
+
+_Teaching Assistant_
+
+Explore classic and recent research on the close ties between the fields of artificial intelligence and neuroscience, with the goal of understanding how ideas and tools from one field can be applied to the other. Topics to be covered include Bayesian brain models, predictive coding, the free energy principle, deep learning, and reinforcement learning. 
+
 ### CSE 455: Computer Vision
 2020 Spring,  University of Washington.  [Course Website](https://courses.cs.washington.edu/courses/cse455/20sp/)
 
