@@ -29,6 +29,9 @@ alias ns="watch -d -n 3 nvidia-smi" # display nvidia-smi every 3 seconds
 alias window="tmux split-window -h; tmux split-window -v; tmux split-window -v; tmux split-window -h"
 alias jn="jupyter notebook --no-browser --ip '*'"
 
+# "latex main" will compile main.tex file now.
+tex () { pdflatex $1; bibtex $1; pdflatex $1; pdflatex $1; }
+
 
 alias KILLALL="lsof /dev/nvidia* | awk '{print $2}' | xargs -I {} kill {}" # kill all CUDA process
 
