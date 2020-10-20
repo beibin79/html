@@ -30,6 +30,20 @@ I also work on medical data analysis including MRI, fMRI, fNIRS, breast cancer d
 
 ## Publication
 
+### Classifying Breast Histopathology Images with a Ductal Instance-Oriented Pipeline
+Li, B.; Mercan, E.; Mehta, S.; Knezevich, S.; Arnold, C.; Weaver, D.; Elmore, J.; Shapiro, L.
+
+In _2020 25th International Conference on Pattern Recognition_. IEEE.
+
+[[PDF]](docs/publications/ICPR20_2393_FI.pdf)
+
+### Leveraging Unlabeled Data for Glioma Molecular Subtype and Survival Prediction.
+Nuechterlein, N.; Li, B.; Seyfioglu, M.; Mehta, S.; Cimino, P.; Shapiro, L.
+
+In _2020 25th International Conference on Pattern Recognition_. IEEE.
+
+
+
 ### Selection of Eye-Tracking Stimuli for Prediction by Sparsely Grouped Input Variables for Neural Networks: towards Biomarker Refinement for Autism
 Li, B.; Barney, E.; Hudac, C.; Nuechterlein, N.;  Ventola, P.; Shapiro, L.; Shic, F.
 
