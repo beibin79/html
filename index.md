@@ -36,6 +36,9 @@ Li, B.; Mercan, E.; Mehta, S.; Knezevich, S.; Arnold, C.; Weaver, D.; Elmore, J.
 In _2020 25th International Conference on Pattern Recognition_. IEEE.
 
 [[PDF]](docs/publications/ICPR20_2393_FI.pdf)
+[[Slides]](docs/posters/ICPR_DIOP_Slides.pdf)
+[[Poster]](docs/posters/2020_ICPR_Poster_DIOP.pdf)
+[[Presentation]](docs/posters/diop_presentation.mp4)
 
 ### Leveraging Unlabeled Data for Glioma Molecular Subtype and Survival Prediction.
 Nuechterlein, N.; Li, B.; Seyfioglu, M.; Mehta, S.; Cimino, P.; Shapiro, L.
