@@ -30,6 +30,12 @@ I also work on medical data analysis including MRI, fMRI, fNIRS, breast cancer d
 
 ## Publication
 
+
+### Applying a Radiogenomic Approach to Predict Clinically-relevant Genome-wide Molecular Signatures in Glioblastoma.
+Nuechterlein, N.; Li, B.; Feroze, A.; Holland, E;  Shapiro, L; Haynor, D.; Fink, J.; Cimino, P.
+
+In _2021 Neuro-Oncology Advances_
+
 ### Classifying Breast Histopathology Images with a Ductal Instance-Oriented Pipeline
 Li, B.; Mercan, E.; Mehta, S.; Knezevich, S.; Arnold, C.; Weaver, D.; Elmore, J.; Shapiro, L.
 
