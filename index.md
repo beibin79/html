@@ -31,10 +31,10 @@ I also work on medical data analysis including MRI, fMRI, fNIRS, breast cancer d
 ## Publication
 
 
-### Applying a Radiogenomic Approach to Predict Clinically-relevant Genome-wide Molecular Signatures in Glioblastoma.
+### Applying a Radiogenomic Approach to Predict Clinically-relevant Genome-wide Molecular Signatures in Glioblastoma
 Nuechterlein, N.; Li, B.; Feroze, A.; Holland, E;  Shapiro, L; Haynor, D.; Fink, J.; Cimino, P.
 
-In _2021 Neuro-Oncology Advances_
+In _2021 Neuro-Oncology Advances (NOA)_
 
 ### Classifying Breast Histopathology Images with a Ductal Instance-Oriented Pipeline
 Li, B.; Mercan, E.; Mehta, S.; Knezevich, S.; Arnold, C.; Weaver, D.; Elmore, J.; Shapiro, L.
@@ -46,11 +46,12 @@ In _2020 25th International Conference on Pattern Recognition_. IEEE.
 [[Poster]](docs/posters/2020_ICPR_Poster_DIOP.pdf)
 [[Presentation]](docs/posters/diop_presentation.mp4)
 
-### Leveraging Unlabeled Data for Glioma Molecular Subtype and Survival Prediction.
+### Leveraging Unlabeled Data for Glioma Molecular Subtype and Survival Prediction
 Nuechterlein, N.; Li, B.; Seyfioglu, M.; Mehta, S.; Cimino, P.; Shapiro, L.
 
 In _2020 25th International Conference on Pattern Recognition_. IEEE.
 
+[[PDF]](docs/publications/icpr_glioma_2020.pdf)
 
 
 ### Selection of Eye-Tracking Stimuli for Prediction by Sparsely Grouped Input Variables for Neural Networks: towards Biomarker Refinement for Autism
@@ -61,14 +62,14 @@ In _Proceedings of the Ninth Biennial ACM Symposium on Eye Tracking Research and
 [[PDF]](docs/publications/selection_ET_stimuli_SGIN_biomarker_autism.pdf), [[Code]](http://github.com/beibinli/SGIN)
 
 
-### MLCD: A Unified Software Package for Cancer Diagnosis.
+### MLCD: A Unified Software Package for Cancer Diagnosis
 Wu, W.; Li, B.; Ezgi, M.;  Mehta, S.;  Bartlett, J.;  Weaver, D.; Elmore, J.; Shapiro, L.
 
 In _Journal of Clinical Oncology_ (JCO). 2020
 
 [[Link]](https://ascopubs.org/doi/full/10.1200/CCI.19.00129), [[PDF]](https://ascopubs.org/doi/pdfdirect/10.1200/CCI.19.00129), [[Code]](https://github.com/cancertech/cancer_diagnosis), [[Website]](https://cancertech.cs.washington.edu/)
 
-### Sparsely Grouped Input Variables for Neural Networks.
+### Sparsely Grouped Input Variables for Neural Networks
 Li, B.; Nuechterlein, N.; Barney, E.; Hudac, C.; Ventola, P.; Shapiro, L.; Shic, F.
 
 _arXiv preprint arXiv:1911.13068_ (2019).
