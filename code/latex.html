@@ -1,0 +1,111 @@
+<!-- index.html -->
+<!DOCTYPE html >
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/pure/2.0.3/pure-min.css" />
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.9.0/brython.min.js">
+    </script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.9.0/brython_stdlib.min.js">
+    </script>
+    <!-- <script src="main.py" type="text/python" defer></script> -->
+    <script type="text/python" defer>
+    
+    
+from browser import document, prompt, html, alert
+import base64
+
+def align_table(_):
+    text = document["latex-area"].value
+
+    data = text.split("\n")
+    data = [_.split("&") for _ in data]
+    
+    space_dict = {} # key: column id; value: num of characters before this column &
+    
+    for line_idx, line_arr in enumerate(data):
+        if len(line_arr) <= 1:
+            continue
+
+        for idx, s in enumerate(line_arr):
+            s = s.replace("\t", " ")
+            if idx > 0:
+                s = s.strip()
+            data[line_idx][idx] = s
+            if idx in space_dict:
+                space_dict[idx] = max(space_dict[idx], len(s))
+            else:
+                space_dict[idx] = len(s)
+    
+    
+    for line_idx, line_arr in enumerate(data):
+        if len(line_arr) <= 1:
+            continue
+        
+        for idx, s in enumerate(line_arr):
+            data[line_idx][idx] = data[line_idx][idx].ljust(space_dict[idx])
+            
+            
+    aligned_data = [" & ".join(_) for _ in data]
+    aligned_str = "\n".join(aligned_data)
+
+    print(aligned_str)
+    
+    display_latex(aligned_str)
+
+def clear_latex(_) -> None:
+    print("Clear Table clicked")
+    document["latex-area"].clear()
+    document["result-display"].clear()
+    document["latex-area"].innerHTML = ""
+    document["latex-area"].value = "" # reset user input value
+    document["result-display"].innerHTML = "" # we should not set user input value for result-display, becuase there is no user input
+
+def display_latex(rst) -> None:
+    display = document["result-display"]
+    display.innerHTML = rst # .replace("\n", "<br>")
+
+
+def copy_result(_) -> None:
+    area = document["result-display"]
+    area.select()
+    document.execCommand("copy")
+
+
+def align_copy_latex(_):
+    align_table(_)
+    copy_result(_)
+
+document["submit-latex"].bind("click", align_table)
+document["submit-copy-latex"].bind("click", align_copy_latex)
+document["clear-latex-btn"].bind("click", clear_latex)
+document["copy-clip"].bind("click", copy_result)
+    </script>
+
+    <style>body { padding: 30px; }</style>
+  </head>
+  <body onload="brython()">
+    <!-- LaTeX Align -->
+    <fieldset>
+        <legend>LaTeX Table Aligner</legend>
+        Enter the LaTeX Table Code Below <br>
+        <textarea id="latex-area" cols="200" rows="20" style="font-family:monospace"></textarea>
+        <br>
+        <button type="submit" id="submit-copy-latex" class="pure-button pure-button-primary" autocomplete="off">Align and Copy</button>
+        <button type="submit" id="submit-latex" class="pure-button pure-button-primary" autocomplete="off">Align</button>
+        <button id="clear-latex-btn" class="pure-button">Clear</button>
+        <br>
+
+    <!-- Note: monospace will make sure every character has the same length -->
+    <textarea readonly id="result-display" cols="200", rows="20" style="font-family:monospace"> </textarea> 
+    <br>
+    <button id="copy-clip" class="pure-button pure-button-primary">Copy to Clipboard</button>
+
+    </fieldset>
+
+
+  </body>
+</html>

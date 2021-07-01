@@ -1,5 +1,5 @@
 % Beibin Li's Homepage
-% Jan/2021
+% April/2021
 
 <link rel="stylesheet" href="uw.css">
 
@@ -22,14 +22,21 @@ beibin at uw.edu;
 
 <br> 
 
-As a Ph.D. student at University of Washington, I focus on computer vision and machine learning. 
+As a Ph.D. candidate at University of Washington, I focus on self-supervision and few-shot learning in computer vision . 
 I work with Prof. Linda Shapiro and Prof. Frederick Shic to diagnose and intervene Autism Spectrum Disorder by using eye tracking, facial expression detection, and augmented reality. 
-I also work on medical data analysis including MRI, fMRI, fNIRS, breast cancer diagnosis, and prostate cancer diagnosis. I want to create elegant mathematical and novel algorithmic methods to solve hard problems with few labeled data.
+I also work on medical data analysis including MRI, fMRI, fNIRS, breast cancer diagnosis, and prostate cancer diagnosis. 
 
 
 
 ## Publication
 
+
+### Learning Melanocytic Proliferation Segmentation in Histopathology Images from Imperfect Annotations
+Liu, K.; Mokhtari, M.; Li, B.; Nofallah, S.; May, C.; Chang, O.; Knezevich, Stevan.; Elmore, J.; Shapiro, L.
+
+In _2021 Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops_
+
+[[PDF]](docs/publications/cvmi_2021_learning_melanocytic_proliferation)
 
 ### Applying a Radiogenomic Approach to Predict Clinically-relevant Genome-wide Molecular Signatures in Glioblastoma
 Nuechterlein, N.; Li, B.; Feroze, A.; Holland, E;  Shapiro, L; Haynor, D.; Fink, J.; Cimino, P.
