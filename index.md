@@ -154,6 +154,13 @@ In _Proceedings of the Ninth Biennial ACM Symposium on Eye Tracking Research and
 
 ## Teaching
 
+### CSE 576: Computer Vision
+2021 Spring,  University of Washington.  [Course Website](https://courses.cs.washington.edu/courses/cse576/21sp/)
+
+_Teaching Assistant_
+
+Image analysis and interpreting the 3D world from image data. Topics include segmentation, motion estimation, image mosaics, 3D-shape reconstruction, object recognition, and image retrieval.
+
 ### CSE 599B: AI and the Brain
 2020 Fall,  University of Washington.  [Course Website](https://courses.cs.washington.edu/courses/cse599b/20au/)
 
