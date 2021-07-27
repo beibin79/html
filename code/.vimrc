@@ -63,7 +63,7 @@ let g:syntastic_python_flake8_args='--ignore=E501,E225,E101,E111,E112,E113,E114,
 
 Plugin 'vim-airline/vim-airline' " A display candy
 Plugin 'vim-airline/vim-airline-themes'
-let g:airline_theme='light'
+" let g:airline_theme='light'
 
 " let Vundle manage Vundle, required
 "
@@ -94,6 +94,8 @@ Plugin 'ivanov/vim-ipython'
 " Vim for iPython
 
 Plugin 'christoomey/vim-tmux-navigator'
+
+Plugin 'sickill/vim-monokai'
 
 
 set omnifunc=syntaxcomplete#Complete "Vim build-in omni auto completion for words
@@ -139,6 +141,8 @@ au BufWrite /private/etc/pw.* set nowritebackup
 
 
 
+set number " display line number
+
 filetype plugin on " in order to uset netrw
 
 set hidden "use hidden functions for :argdo and :bufdo
@@ -147,24 +151,26 @@ set hidden "use hidden functions for :argdo and :bufdo
 
 "" ================ Syntax and Color ========================
 syntax on
-:colorscheme  elflord "Color Scheme (default in Sublime)from https://github.com/sickill/vim-monokai
+:colorscheme monokai "Color Scheme (default in Sublime)from https://github.com/sickill/vim-monokai
 " :colorscheme xcodelike
 
 
 "" ================ Tab and Space ========================
 " The following two lines will show tab and newline characters
-set listchars=tab:~\ ,eol:Â¬,
+set listchars=tab:~\ ,eol:¬,
 
 set list
 
-""the following 3 lines are all related to the appearance of TAB as 4 spaces.
-set tabstop=4 "set the appearance of tab as 4 spaces                       
-set softtabstop=4 "set the back/delete key as delete 4 spaces
-set shiftwidth=4 "set the appearance of  autoindent, cindent as 4 spaces
+""the following 3 lines are all related to the appearance of TAB as 2 spaces.
+set tabstop=2 "set the appearance of tab as 2 spaces                       
+set softtabstop=2 "set the back/delete key as delete 2 spaces
+set shiftwidth=0 "set the appearance of  autoindent, cindent as 2 spaces
 set backspace=2 " more powerful backspacing
 set expandtab "use tab as space
+set smarttab
 "set noexpandtab "use tab as tab
 
+autocmd Filetype python setlocal ts=2 sw=2 expandtab
 
 "" ================ Cursor ========================
 set cursorline
@@ -254,7 +260,7 @@ source $VIMRUNTIME/menu.vim
 set ff=unix
 
 
-" Don't add the following lines, unless you want to uset Chineset (message encoding change)
+" Don't add the following lines, unless you want to use Chinese (message encoding change)
 " language messages zh_CN.utf-8
 " set fileencodings=ucs-bom,utf-8,chinese,cp936
 
