@@ -1,5 +1,5 @@
 % Beibin Li's Homepage
-% April/2021
+% August/2021
 
 <link rel="stylesheet" href="uw.css">
 
@@ -29,6 +29,31 @@ I also work on medical data analysis including MRI, fMRI, fNIRS, breast cancer d
 
 
 ## Publication
+
+### Memory Deficit in Patients with Temporal Lobe Epilepsy: Evidence from Eye Tracking Technology
+Zhu, G.; Wang, J.; Xiao, L.; Yang, K.; Huang, K.; Li, B.; Huang, S.; Xiao, B.; Liu, D.; Feng,L.; Wang, Q.
+
+_Frontiers in Neuroscience_ 2021
+
+### Cardinality Estimation: Is Machine Learning a Silver Bullet? 
+Li, B.; Lu, Y.; Wang, C.; Kandula, S..
+
+_Proceedings of the 2021 Proceedings of the Very Large Data Bases (VLDB) Endowment._
+
+[[PDF]](docs/publications/li_ml_ce.pdf)
+
+### Q-error Bounds of Random Uniform Sampling for Cardinality Estimation
+Li, B.; Lu, Y.; Wang, C.; Kandula, S..
+
+[[arXiv]](https://arxiv.org/abs/2108.02715)
+
+### Learning Oculomotor Behaviors from Scanpath
+Li,B.; Nuechterlein, N.; Barney, E.; Foster, C.; Kim, M.; Mahony, M.; Atyabi, A.; Feng, L.; Wang, Q.; Ventola, P.; Shapiro, L.; Shic, F.
+
+In _2021 ACM International Conference In Multi-modal Interaction (ICMI)_
+
+[[arXiv]](https://arxiv.org/abs/2108.05025)
+[[Code]](https://github.com/beibinli/OBF)
 
 
 ### Learning Melanocytic Proliferation Segmentation in Histopathology Images from Imperfect Annotations
@@ -81,14 +106,14 @@ Li, B.; Nuechterlein, N.; Barney, E.; Hudac, C.; Ventola, P.; Shapiro, L.; Shic,
 
 _arXiv preprint arXiv:1911.13068_ (2019).
 
-[[ArXiv]](https://arxiv.org/abs/1911.13068), [[Code]](http://github.com/beibinli/SGIN)
+[[arXiv]](https://arxiv.org/abs/1911.13068), [[Code]](http://github.com/beibinli/SGIN)
 
 ### A Facial Affect Analysis System for Autism Spectrum Disorder
 Li, B.; Mehta, S.; Aneja, D.; Foster, C.; Ventola, P.; Shic, F.; Shapiro, L.
 
 In _Proceedings of the IEEE International Conference on Image Processing_ (ICIP 2019)
 
-[[ArXiv]](https://arxiv.org/abs/1904.03616), [[Code]](https://github.com/BeibinLi/affspec), [IEEE SPS Travel Grant]
+[[arXiv]](https://arxiv.org/abs/1904.03616), [[Code]](https://github.com/BeibinLi/affspec), [IEEE SPS Travel Grant]
 
 ### Social Influences on Executive Functioning in Autism: Design of a Mobile Gaming Platform
 
