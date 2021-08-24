@@ -38,7 +38,7 @@ _Frontiers in Neuroscience_ 2021
 ### Cardinality Estimation: Is Machine Learning a Silver Bullet? 
 Li, B.; Lu, Y.; Wang, C.; Kandula, S..
 
-_Proceedings of the 2021 Proceedings of the Very Large Data Bases (VLDB) Endowment._
+_The 3rd International Workshop on Applied AI for Database Systems and Applications (AIDB)._
 
 [[PDF]](docs/publications/li_ml_ce.pdf)
 
