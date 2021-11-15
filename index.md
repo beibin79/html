@@ -1,4 +1,4 @@
-% Beibin Li's Homepage
+% Beibin Li
 % August/2021
 
 <link rel="stylesheet" href="uw.css">
@@ -13,7 +13,7 @@ beibin at uw.edu;
 
 <br>
 
-- Paul G. Allen School of Computer Science and Engineering, University of Washington
+- Paul G. Allen School of Computer Science and Engineering (CSE), University of Washington
 - Affiliated Groups:
 [Shapiro Lab](https://nknuecht.github.io/ShapiroLab/),
 [SCITL](https://www.seattlechildrens.org/research/centers-programs/child-health-behavior-and-development/labs/seattle-childrens-innovative-technologies-lab-scitl/),
@@ -22,9 +22,8 @@ beibin at uw.edu;
 
 <br>
 
-As a Ph.D. candidate at University of Washington, I focus on self-supervision and few-shot learning in computer vision .
-I work with Prof. Linda Shapiro and Prof. Frederick Shic to diagnose and intervene Autism Spectrum Disorder by using eye tracking, facial expression detection, and augmented reality.
-I also work on medical data analysis including MRI, fMRI, fNIRS, breast cancer diagnosis, and prostate cancer diagnosis.
+As a Ph.D. candidate at University of Washington, I focus on self-supervision and few-shot learning in computer vision. I work with Prof. Linda Shapiro and Prof. Frederick Shic to diagnose and intervene in Autism Spectrum Disorder by using eye tracking, facial expression detection, and augmented reality. I also work on medical data analysis including MRI, fMRI, fNIRS, breast cancer diagnosis, and prostate cancer diagnosis.
+
 
 ## Publication
 
@@ -67,11 +66,21 @@ In _2021 Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern R
 
 [[PDF]](docs/publications/cvmi_2021_learning_melanocytic_proliferation.pdf)
 
-### Applying a Radiogenomic Approach to Predict Clinically-relevant Genome-wide Molecular Signatures in Glioblastoma
+### Radiogenomic Modeling Predicts Survival-Associated Prognostic Groups in Glioblastoma 
 
 Nuechterlein, N.; Li, B.; Feroze, A.; Holland, E;  Shapiro, L; Haynor, D.; Fink, J.; Cimino, P.
 
 In _2021 Neuro-Oncology Advances (NOA)_
+
+[[Link]](https://academic.oup.com/noa/article/3/1/vdab004/6136246)
+
+### Radiogenomic Features Predict Clinically Relevant Genome-Wide Alteration Signatures In Glioblastoma
+
+Nuechterlein, N.; Li, B.; Feroze, A.; Holland, E;  Shapiro, L; Haynor, D.; Fink, J.; Cimino, P.
+
+In _2021 Neuro-Oncology, Volume 22, Issue Supplement_2, November 2020, Page ii158
+
+[[Link]](https://doi.org/10.1093/neuonc/noaa215.659)
 
 ### Classifying Breast Histopathology Images with a Ductal Instance-Oriented Pipeline
 
