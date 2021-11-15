@@ -34,6 +34,8 @@ Zhu, G.; Wang, J.; Xiao, L.; Yang, K.; Huang, K.; Li, B.; Huang, S.; Xiao, B.; L
 
 _Frontiers in Neuroscience_ 2021
 
+[[Link]](https://www.frontiersin.org/articles/10.3389/fnins.2021.716476/full)
+
 ### Cardinality Estimation: Is Machine Learning a Silver Bullet?
 
 Li, B.; Lu, Y.; Wang, C.; Kandula, S..
