@@ -1,5 +1,5 @@
 % Beibin Li
-% August/2021
+% March/2022
 
 <link rel="stylesheet" href="uw.css">
 
@@ -13,19 +13,29 @@ beibin at uw.edu;
 
 <br>
 
-- Paul G. Allen School of Computer Science and Engineering (CSE), University of Washington
-- Affiliated Groups:
-[Shapiro Lab](https://nknuecht.github.io/ShapiroLab/),
-[SCITL](https://www.seattlechildrens.org/research/centers-programs/child-health-behavior-and-development/labs/seattle-childrens-innovative-technologies-lab-scitl/),
-[FERG Group](http://arl.cs.washington.edu/ferg/people.html),
-[Reality Lab](https://realitylab.uw.edu/)
+Cloud Operation Research (CORE), Microsoft Research, Redmond, WA
 
 <br>
 
-As a Ph.D. candidate at University of Washington, I focus on self-supervision and few-shot learning in computer vision. I work with Prof. Linda Shapiro and Prof. Frederick Shic to diagnose and intervene in Autism Spectrum Disorder by using eye tracking, facial expression detection, and augmented reality. I also work on medical data analysis including MRI, fMRI, fNIRS, breast cancer diagnosis, and prostate cancer diagnosis.
-
+Optimizing supply chain and virtual machine allocation methods, I aim to integrate modern deep learning methods,
+such as model pre-training, reinforcement learning, active learning, and variational inference, to combinatorics
+optimization problems in data centers and Azure services.
+<br><br>
+Before joining MSR, I was a Ph.D. candidate at Paul G. Allen School of Computer Science and Engineering, the
+University of Washington, advised by Linda Shapiro and Frederick Shic. My Ph.D. [dissertation]()
+focuses on
+<i>Low-Resource Neural Adaptation: A Unified Data Adaptation Framework for Neural Networks</i>, where we adapt
+deep
+learning models for histopathological images, eye tracking models, autism behavior analyses, and
+database optimization.
 
 ## Publication
+
+### Warper: Efficiently Adapting Learned Cardinality Estimators to Data and Workload Drifts
+
+Li, B.; Lu, Y.; Kandula, S.
+
+_In 2022 ACM Management of Data (SIGMOD)._
 
 ### Memory Deficit in Patients with Temporal Lobe Epilepsy: Evidence from Eye Tracking Technology
 
@@ -66,7 +76,7 @@ In _2021 Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern R
 
 [[PDF]](docs/publications/cvmi_2021_learning_melanocytic_proliferation.pdf)
 
-### Radiogenomic Modeling Predicts Survival-Associated Prognostic Groups in Glioblastoma 
+### Radiogenomic Modeling Predicts Survival-Associated Prognostic Groups in Glioblastoma
 
 Nuechterlein, N.; Li, B.; Feroze, A.; Holland, E;  Shapiro, L; Haynor, D.; Fink, J.; Cimino, P.
 
@@ -78,7 +88,7 @@ In _2021 Neuro-Oncology Advances (NOA)_
 
 Nuechterlein, N.; Li, B.; Feroze, A.; Holland, E;  Shapiro, L; Haynor, D.; Fink, J.; Cimino, P.
 
-In _2021 Neuro-Oncology, Volume 22, Issue Supplement_2, November 2020, Page ii158
+In _2021 Neuro-Oncology, Volume 22, Issue Supplement 2, November 2020_
 
 [[Link]](https://doi.org/10.1093/neuonc/noaa215.659)
 
@@ -200,6 +210,14 @@ In _Proceedings of the Ninth Biennial ACM Symposium on Eye Tracking Research and
 
 ## Teaching
 
+### CSE 577: Medical Image Analysis
+
+2022 Fall,  University of Washington.  [Course Website](https://courses.cs.washington.edu/courses/cse577/22au/)
+
+_Teaching Assistant_
+
+Topics vary and may include vision for graphics, probabilistic vision and learning, medical imaging, content-based image and video retrieval, robot vision, or 3D object recognition.
+
 ### CSE 576: Computer Vision
 
 2021 Spring,  University of Washington.  [Course Website](https://courses.cs.washington.edu/courses/cse576/21sp/)
@@ -252,14 +270,15 @@ Introduction to theory of computation.  Models of computation: finite state mach
 
 |                |                     |                                  |                          |               |
 | :------------: | :-----------------: | :------------------------------: | :----------------------: | :-----------: |
-| 2017 - Current |    Ph.D. Student    | Computer Science and Engineering | University of Washington |  Seattle, WA  |
-| Graduated 2015 | Bachelor of Science |           Mathematics            |  University of Michigan  | Ann Arbor, MI |
-| Graduated 2015 | Bachelor of Science |         Computer Science         |  University of Michigan  | Ann Arbor, MI |
+| 2022 |    Ph.D.    | Computer Science and Engineering | University of Washington |  Seattle, WA  |
+|  2015 | Bachelor of Science |           Mathematics            |  University of Michigan  | Ann Arbor, MI |
+|  2015 | Bachelor of Science |         Computer Science         |  University of Michigan  | Ann Arbor, MI |
 
 ## Experience
 
 |             |                    |                           |                                       |               |
 | :---------: | :----------------: | :-----------------------: | :-----------------------------------: | :-----------: |
+| 2022 - Now | Senior Research Engineer |   CORE           | Microsoft Research |  Redmond, WA  |
 | 2016 - 2017 | Research Associate |           SCITL           | Seattle Children's Research Institute |  Seattle, WA  |
 | 2015 - 2016 |  Research Fellow   | Technology Innovation Lab |            Yale University            | New Haven, CT |
 

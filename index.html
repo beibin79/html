@@ -4,35 +4,168 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <meta name="author" content="August/2021" />
+  <meta name="author" content="March/2022" />
   <title>Beibin Li</title>
-  <style type="text/css">
-      code{white-space: pre-wrap;}
-      span.smallcaps{font-variant: small-caps;}
-      span.underline{text-decoration: underline;}
-      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
 </head>
 <body>
-<header>
+<header id="title-block-header">
 <h1 class="title">Beibin Li</h1>
-<p class="author">August/2021</p>
+<p class="author">March/2022</p>
 </header>
 <p><link rel="stylesheet" href="uw.css"></p>
 <p><br> <br></p>
 <p><img src="img/me.jpg" alt="drawing" width="100" align="right" HSPACE=50 VSPACE=50/></p>
 <p><a href="cv_beibinli.pdf">[Curriculum Vitae]</a>; <a href="https://scholar.google.com/citations?hl=en&amp;user=6kkD3JsAAAAJ&amp;view_op=list_works&amp;gmla=AJsN-F62OK8Fpw4QY1xboQMecC0iML88p2PtHfBP5mmmffIlXcOT1iTTqi8aL5rgJVy4N50apL2-AU_fw2Xaj0Av6ekay4gnl5GySzwqyPRe2CStlFBMIzc">[Google Scholar]</a>; beibin at uw.edu;</p>
 <p><br></p>
-<ul>
-<li>Paul G. Allen School of Computer Science and Engineering (CSE), University of Washington</li>
-<li>Affiliated Groups: <a href="https://nknuecht.github.io/ShapiroLab/">Shapiro Lab</a>, <a href="https://www.seattlechildrens.org/research/centers-programs/child-health-behavior-and-development/labs/seattle-childrens-innovative-technologies-lab-scitl/">SCITL</a>, <a href="http://arl.cs.washington.edu/ferg/people.html">FERG Group</a>, <a href="https://realitylab.uw.edu/">Reality Lab</a></li>
-</ul>
+<p>Cloud Operation Research (CORE), Microsoft Research, Redmond, WA</p>
 <p><br></p>
-<p>As a Ph.D. candidate at University of Washington, I focus on self-supervision and few-shot learning in computer vision. I work with Prof. Linda Shapiro and Prof. Frederick Shic to diagnose and intervene in Autism Spectrum Disorder by using eye tracking, facial expression detection, and augmented reality. I also work on medical data analysis including MRI, fMRI, fNIRS, breast cancer diagnosis, and prostate cancer diagnosis.</p>
+<p>Optimizing supply chain and virtual machine allocation methods, I aim to integrate modern deep learning methods, such as model pre-training, reinforcement learning, active learning, and variational inference, to combinatorics optimization problems in data centers and Azure services. <br><br> Before joining MSR, I was a Ph.D. candidate at Paul G. Allen School of Computer Science and Engineering, the University of Washington, advised by Linda Shapiro and Frederick Shic. My Ph.D. <a href="">dissertation</a> focuses on <i>Low-Resource Neural Adaptation: A Unified Data Adaptation Framework for Neural Networks</i>, where we adapt deep learning models for histopathological images, eye tracking models, autism behavior analyses, and database optimization.</p>
 <h2 id="publication">Publication</h2>
+<h3 id="warper-efficiently-adapting-learned-cardinality-estimators-to-data-and-workload-drifts">Warper: Efficiently Adapting Learned Cardinality Estimators to Data and Workload Drifts</h3>
+<p>Li, B.; Lu, Y.; Kandula, S.</p>
+<p><em>In 2022 ACM Management of Data (SIGMOD).</em></p>
 <h3 id="memory-deficit-in-patients-with-temporal-lobe-epilepsy-evidence-from-eye-tracking-technology">Memory Deficit in Patients with Temporal Lobe Epilepsy: Evidence from Eye Tracking Technology</h3>
 <p>Zhu, G.; Wang, J.; Xiao, L.; Yang, K.; Huang, K.; Li, B.; Huang, S.; Xiao, B.; Liu, D.; Feng,L.; Wang, Q.</p>
 <p><em>Frontiers in Neuroscience</em> 2021</p>
@@ -58,7 +191,7 @@
 <p><a href="https://academic.oup.com/noa/article/3/1/vdab004/6136246">[Link]</a></p>
 <h3 id="radiogenomic-features-predict-clinically-relevant-genome-wide-alteration-signatures-in-glioblastoma">Radiogenomic Features Predict Clinically Relevant Genome-Wide Alteration Signatures In Glioblastoma</h3>
 <p>Nuechterlein, N.; Li, B.; Feroze, A.; Holland, E; Shapiro, L; Haynor, D.; Fink, J.; Cimino, P.</p>
-<p>In _2021 Neuro-Oncology, Volume 22, Issue Supplement_2, November 2020, Page ii158</p>
+<p>In <em>2021 Neuro-Oncology, Volume 22, Issue Supplement 2, November 2020</em></p>
 <p><a href="https://doi.org/10.1093/neuonc/noaa215.659">[Link]</a></p>
 <h3 id="classifying-breast-histopathology-images-with-a-ductal-instance-oriented-pipeline">Classifying Breast Histopathology Images with a Ductal Instance-Oriented Pipeline</h3>
 <p>Li, B.; Mercan, E.; Mehta, S.; Knezevich, S.; Arnold, C.; Weaver, D.; Elmore, J.; Shapiro, L.</p>
@@ -117,6 +250,10 @@
 <p>In <em>Proceedings of the Ninth Biennial ACM Symposium on Eye Tracking Research and Applications</em> (pp. 339-340). ACM. (ACM ETRA 2016).</p>
 <p><a href="docs/publications/optimal_IDD.pdf">[PDF]</a></p>
 <h2 id="teaching">Teaching</h2>
+<h3 id="cse-577-medical-image-analysis">CSE 577: Medical Image Analysis</h3>
+<p>2022 Fall, University of Washington. <a href="https://courses.cs.washington.edu/courses/cse577/22au/">Course Website</a></p>
+<p><em>Teaching Assistant</em></p>
+<p>Topics vary and may include vision for graphics, probabilistic vision and learning, medical imaging, content-based image and video retrieval, robot vision, or 3D object recognition.</p>
 <h3 id="cse-576-computer-vision">CSE 576: Computer Vision</h3>
 <p>2021 Spring, University of Washington. <a href="https://courses.cs.washington.edu/courses/cse576/21sp/">Course Website</a></p>
 <p><em>Teaching Assistant</em></p>
@@ -152,21 +289,21 @@
 </colgroup>
 <tbody>
 <tr class="odd">
-<td style="text-align: center;">2017 - Current</td>
-<td style="text-align: center;">Ph.D. Student</td>
+<td style="text-align: center;">2022</td>
+<td style="text-align: center;">Ph.D.</td>
 <td style="text-align: center;">Computer Science and Engineering</td>
 <td style="text-align: center;">University of Washington</td>
 <td style="text-align: center;">Seattle, WA</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;">Graduated 2015</td>
+<td style="text-align: center;">2015</td>
 <td style="text-align: center;">Bachelor of Science</td>
 <td style="text-align: center;">Mathematics</td>
 <td style="text-align: center;">University of Michigan</td>
 <td style="text-align: center;">Ann Arbor, MI</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;">Graduated 2015</td>
+<td style="text-align: center;">2015</td>
 <td style="text-align: center;">Bachelor of Science</td>
 <td style="text-align: center;">Computer Science</td>
 <td style="text-align: center;">University of Michigan</td>
@@ -185,13 +322,20 @@
 </colgroup>
 <tbody>
 <tr class="odd">
+<td style="text-align: center;">2022 - Now</td>
+<td style="text-align: center;">Senior Research Engineer</td>
+<td style="text-align: center;">CORE</td>
+<td style="text-align: center;">Microsoft Research</td>
+<td style="text-align: center;">Redmond, WA</td>
+</tr>
+<tr class="even">
 <td style="text-align: center;">2016 - 2017</td>
 <td style="text-align: center;">Research Associate</td>
 <td style="text-align: center;">SCITL</td>
 <td style="text-align: center;">Seattle Children’s Research Institute</td>
 <td style="text-align: center;">Seattle, WA</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: center;">2015 - 2016</td>
 <td style="text-align: center;">Research Fellow</td>
 <td style="text-align: center;">Technology Innovation Lab</td>
