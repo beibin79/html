@@ -9,7 +9,7 @@
 
 [[Curriculum Vitae]](cv_beibinli.pdf);
 [[Google Scholar]](https://scholar.google.com/citations?hl=en&user=6kkD3JsAAAAJ&view_op=list_works&gmla=AJsN-F62OK8Fpw4QY1xboQMecC0iML88p2PtHfBP5mmmffIlXcOT1iTTqi8aL5rgJVy4N50apL2-AU_fw2Xaj0Av6ekay4gnl5GySzwqyPRe2CStlFBMIzc);
-beibin at uw.edu;
+beibin.li at microsoft.com;
 
 <br>
 
