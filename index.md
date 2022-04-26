@@ -22,7 +22,7 @@ such as model pre-training, reinforcement learning, active learning, and variati
 optimization problems in data centers and Azure services.
 <br><br>
 Before joining MSR, I was a Ph.D. candidate at Paul G. Allen School of Computer Science and Engineering, the
-University of Washington, advised by Linda Shapiro and Frederick Shic. My Ph.D. [dissertation]()
+University of Washington, advised by Linda Shapiro and Frederick Shic. My Ph.D. [dissertation](https://digital.lib.washington.edu/researchworks/handle/1773/48476)
 focuses on
 <i>Low-Resource Neural Adaptation: A Unified Data Adaptation Framework for Neural Networks</i>, where we adapt
 deep
@@ -36,6 +36,8 @@ database optimization.
 Li, B.; Lu, Y.; Kandula, S.
 
 _In 2022 ACM Management of Data (SIGMOD)._
+
+[[PDF]](http://yao.lu/warper.pdf)
 
 ### Memory Deficit in Patients with Temporal Lobe Epilepsy: Evidence from Eye Tracking Technology
 
