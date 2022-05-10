@@ -17,10 +17,13 @@ Cloud Operation Research (CORE), Microsoft Research, Redmond, WA
 
 <br>
 
+<!-- 
 Optimizing supply chain and virtual machine allocation methods, I aim to integrate modern deep learning methods,
 such as model pre-training, reinforcement learning, active learning, and variational inference, to combinatorial
 optimization problems in data centers and Azure services.
 <br><br>
+-->
+
 Before joining MSR, I was a Ph.D. candidate at Paul G. Allen School of Computer Science and Engineering, the
 University of Washington, advised by Linda Shapiro and Frederick Shic. My Ph.D. [dissertation](https://digital.lib.washington.edu/researchworks/handle/1773/48476)
 focuses on
