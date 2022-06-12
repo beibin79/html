@@ -25,7 +25,7 @@ optimization problems in data centers and Azure services.
 -->
 
 Before joining MSR, I was a Ph.D. candidate at Paul G. Allen School of Computer Science and Engineering, the
-University of Washington, advised by Linda Shapiro and Frederick Shic. My Ph.D. [dissertation](https://digital.lib.washington.edu/researchworks/handle/1773/48476)
+University of Washington, advised by Linda Shapiro and Frederick Shic. My Ph.D. [dissertation](uda/index.html)
 focuses on
 <i>Low-Resource Neural Adaptation: A Unified Data Adaptation Framework for Neural Networks</i>, where we adapt
 deep
