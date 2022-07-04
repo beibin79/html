@@ -4,7 +4,7 @@
 <center>
  [[Paper PDF]](http://yao.lu/warper.pdf) 
  [[Talk Slides PDF]](Warper_slides.pdf)
- [[Talk Video]](https://youtu.be/h9jg1KABMTU)
+ [[Talk Video]](https://youtu.be/JGtGurlP564)
  [[Poster HD PNG]](Warper_Poster_HD.png)
 </center>
 

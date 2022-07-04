@@ -40,7 +40,10 @@ Li, B.; Lu, Y.; Kandula, S.
 
 _In 2022 ACM Management of Data (SIGMOD)._
 
-[[PDF]](http://yao.lu/warper.pdf) [[Page]](docs/warper/index.html)
+[[PDF]](http://yao.lu/warper.pdf) 
+[[Page]](docs/warper/index.html)
+[[Talk Slides PDF]](docs/warper/Warper_slides.pdf)
+[[Talk Video]](https://youtu.be/JGtGurlP564)
 
 ### Memory Deficit in Patients with Temporal Lobe Epilepsy: Evidence from Eye Tracking Technology
 
