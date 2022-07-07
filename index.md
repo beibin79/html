@@ -1,5 +1,5 @@
 % Beibin Li
-% March/2022
+% June/2022
 
 <link rel="stylesheet" href="uw.css">
 
@@ -33,6 +33,15 @@ learning models for histopathological images, eye tracking models, autism behavi
 database optimization.
 
 ## Publication
+
+
+### Stratification of Children with Autism Spectrum Disorder through Fusion of Temporal Information in Eye-gaze Scan-paths
+
+_In 2022 ACM Transactions on Knowledge Discovery from Data (TKDD) _
+
+[[Link]](https://dlnext.acm.org/doi/10.1145/3539226)
+
+
 
 ### Warper: Efficiently Adapting Learned Cardinality Estimators to Data and Workload Drifts
 
