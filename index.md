@@ -1,5 +1,5 @@
 % Beibin Li
-% June/2022
+% July/2022
 
 <link rel="stylesheet" href="uw.css">
 
@@ -35,13 +35,6 @@ database optimization.
 ## Publication
 
 
-### Stratification of Children with Autism Spectrum Disorder through Fusion of Temporal Information in Eye-gaze Scan-paths
-
-_In 2022 ACM Transactions on Knowledge Discovery from Data (TKDD) _
-
-[[Link]](https://dlnext.acm.org/doi/10.1145/3539226)
-
-
 
 ### Warper: Efficiently Adapting Learned Cardinality Estimators to Data and Workload Drifts
 
@@ -53,6 +46,21 @@ _In 2022 ACM Management of Data (SIGMOD)._
 [[Page]](docs/warper/index.html)
 [[Talk Slides PDF]](docs/warper/Warper_slides.pdf)
 [[Talk Video]](https://youtu.be/JGtGurlP564)
+
+### Improving the Diagnosis of Skin Biopsies using Tissue Segmentation
+
+Nofallah, S.; Li, B.; Mokhtari, M.; Wu, W.; Knezevich, S.; May, C. J.; Chang, O. H.; Elmore, J.; Shapiro, L.
+
+_In Diagnostics, 2022_
+
+
+### Stratification of Children with Autism Spectrum Disorder through Fusion of Temporal Information in Eye-gaze Scan-paths
+
+Atyabi, A.; Shic, F.; Jiang, J.; Foster, C.E.; Barney, E.; Kim, M.; Li, B.; Ventola, P.; Chen, C.H..
+
+_In 2022 ACM Transactions on Knowledge Discovery from Data (TKDD) _
+
+[[Link]](https://dlnext.acm.org/doi/10.1145/3539226)
 
 ### Memory Deficit in Patients with Temporal Lobe Epilepsy: Evidence from Eye Tracking Technology
 
@@ -73,6 +81,8 @@ _The 3rd International Workshop on Applied AI for Database Systems and Applicati
 ### Q-error Bounds of Random Uniform Sampling for Cardinality Estimation
 
 Li, B.; Lu, Y.; Wang, C.; Kandula, S..
+
+2021
 
 [[arXiv]](https://arxiv.org/abs/2108.02715)
 
@@ -229,7 +239,7 @@ In _Proceedings of the Ninth Biennial ACM Symposium on Eye Tracking Research and
 
 ### CSE 577: Medical Image Analysis
 
-2022 Fall,  University of Washington.  [Course Website](https://courses.cs.washington.edu/courses/cse577/22au/)
+2021 Fall,  University of Washington.  [Course Website](https://courses.cs.washington.edu/courses/cse577/21au/)
 
 _Teaching Assistant_
 
