@@ -24,7 +24,7 @@ optimization problems in data centers and Azure services.
 <br><br>
 -->
 
-Before joining MSR, I was a Ph.D. candidate at Paul G. Allen School of Computer Science and Engineering, the
+Before joining Microsoft Research, I was a Ph.D. candidate at Paul G. Allen School of Computer Science and Engineering, the
 University of Washington, advised by Linda Shapiro and Frederick Shic. My Ph.D. [dissertation](uda/index.html)
 focuses on
 <i>Low-Resource Neural Adaptation: A Unified Data Adaptation Framework for Neural Networks</i>, where we adapt
@@ -33,6 +33,23 @@ learning models for histopathological images, eye tracking models, autism behavi
 database optimization.
 
 ## Publication
+
+### VSGD-Net: Virtual Staining Guided Melanocyte Detection on Histopathological Images
+
+Liu, K.; Li, B.; Wu, W.; May, C.; Chang, O.; Knezevich, S.; Reische, L.; Elmore, J.; Shapiro, L.;
+
+_In WACV, 2023_
+
+
+### The autism biomarkers consortium for clinical trials: evaluation of a battery of candidate eye-tracking biomarkers for use in autism clinical trials
+Shic, F., Naples, A.J., Barney, E.C., Chang, S.A., Li, B., McAllister, T., Kim, M., Dommer, K.J., Hasselmo, S., Atyabi, A. and Wang, Q.
+
+_In Molecular Autism, 13(1), pp.1-17._ 2022
+
+### A Functional Model for Studying Common Trends Across Trial Time in Eye Tracking Experiments
+Dong, M., Telesca, D., Sugar, C., Shic, F., Naples, A., Johnson, S.P., Li, B., Atyabi, A., Xie, M., Webb, S.J. and Jeste, S.;
+
+_In Statistics in Biosciences, pp.1-27._ 2022
 
 
 
