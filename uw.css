@@ -1,6 +1,8 @@
 * {
   padding: 0;
   margin: 0 10 0 10;
+  scroll-behavior: smooth;
+  /* scroll-behavior: Scroll to anchor smoothly with <a> href */
 }
 
 body {
