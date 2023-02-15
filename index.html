@@ -154,7 +154,7 @@
 <h1 class="title">Beibin Li</h1>
 <p class="author">Updated: July/2022</p>
 </header>
-<p><link rel="stylesheet" href="uw.css"> <link rel="stylesheet" href="sidebar.css"></p>
+<p><link rel="stylesheet" href="uw.css"> <link rel="stylesheet" href="sidebar.css"> <link rel="stylesheet" href="filter.css"></p>
 <div id="mySidenav" class="sidenav">
 <p><a href="#">About</a> <a href="#publication">Publication</a> <a href="#teaching">Teaching</a> <a href="#experience">Experience</a></p>
 </div>
@@ -166,110 +166,169 @@
 <p><br></p>
 <p>I’m currently a senior research engineer at Microsoft Research, where my work centers on AI and combinatorial optimization for cloud operations. Prior to joining MSR, I pursued a Ph.D. at the Paul G. Allen School of Computer Science and Engineering, University of Washington, under the guidance of Linda Shapiro and Frederick Shic. During that time, I dedicated my research to developing a Unified Data Adaptation Framework for Neural Networks, with a particular focus on low-resource neural adaptation. In my <a href="uda/index.html">dissertation</a>, I delved into the adaptation of deep learning models for a range of applications, including histopathological images, eye tracking models, autism behavior analyses, and database optimization.</p>
 <h2 id="publication">Publication</h2>
-<h3 id="vsgd-net-virtual-staining-guided-melanocyte-detection-on-histopathological-images">VSGD-Net: Virtual Staining Guided Melanocyte Detection on Histopathological Images</h3>
+<div id="filterBtnContainer">
+<p><button class="filterBtn fBtnActive" onclick="filterSelection('all')"> All </button> <button class="filterBtn" onclick="filterSelection('dbPaper')"> System </button> <button class="filterBtn" onclick="filterSelection('healthPaper')"> Health </button> <button class="filterBtn" onclick="filterSelection('etPaper')"> Eye-Tracking </button> <button class="filterBtn" onclick="filterSelection('autismPaper')"> Autism </button></p>
+</div>
+<div class="publicationContainer">
+<section id="vsgd-net-virtual-staining-guided-melanocyte-detection-on-histopathological-images" class="filterDiv healthPaper">
+<h3>VSGD-Net: Virtual Staining Guided Melanocyte Detection on Histopathological Images</h3>
 <p>Liu, K.; Li, B.; Wu, W.; May, C.; Chang, O.; Knezevich, S.; Reische, L.; Elmore, J.; Shapiro, L.;</p>
 <p><em>In WACV, 2023</em></p>
-<h3 id="the-autism-biomarkers-consortium-for-clinical-trials-evaluation-of-a-battery-of-candidate-eye-tracking-biomarkers-for-use-in-autism-clinical-trials">The autism biomarkers consortium for clinical trials: evaluation of a battery of candidate eye-tracking biomarkers for use in autism clinical trials</h3>
+</section>
+<section id="the-autism-biomarkers-consortium-for-clinical-trials-evaluation-of-a-battery-of-candidate-eye-tracking-biomarkers-for-use-in-autism-clinical-trials" class="filterDiv healthPaper">
+<h3>The autism biomarkers consortium for clinical trials: evaluation of a battery of candidate eye-tracking biomarkers for use in autism clinical trials</h3>
 <p>Shic, F., Naples, A.J., Barney, E.C., Chang, S.A., Li, B., McAllister, T., Kim, M., Dommer, K.J., Hasselmo, S., Atyabi, A. and Wang, Q.</p>
 <p><em>In Molecular Autism, 13(1), pp.1-17.</em> 2022</p>
-<h3 id="a-functional-model-for-studying-common-trends-across-trial-time-in-eye-tracking-experiments">A Functional Model for Studying Common Trends Across Trial Time in Eye Tracking Experiments</h3>
+</section>
+<section id="a-functional-model-for-studying-common-trends-across-trial-time-in-eye-tracking-experiments" class="filterDiv etPaper">
+<h3>A Functional Model for Studying Common Trends Across Trial Time in Eye Tracking Experiments</h3>
 <p>Dong, M., Telesca, D., Sugar, C., Shic, F., Naples, A., Johnson, S.P., Li, B., Atyabi, A., Xie, M., Webb, S.J. and Jeste, S.;</p>
 <p><em>In Statistics in Biosciences, pp.1-27.</em> 2022</p>
-<h3 id="warper-efficiently-adapting-learned-cardinality-estimators-to-data-and-workload-drifts">Warper: Efficiently Adapting Learned Cardinality Estimators to Data and Workload Drifts</h3>
+</section>
+<section id="warper-efficiently-adapting-learned-cardinality-estimators-to-data-and-workload-drifts" class="filterDiv dbPaper">
+<h3>Warper: Efficiently Adapting Learned Cardinality Estimators to Data and Workload Drifts</h3>
 <p>Li, B.; Lu, Y.; Kandula, S.</p>
 <p><em>In 2022 ACM Management of Data (SIGMOD).</em></p>
 <p><a href="http://yao.lu/warper.pdf">[PDF]</a> <a href="docs/warper/index.html">[Page]</a> <a href="docs/warper/Warper_slides.pdf">[Talk Slides PDF]</a> <a href="https://youtu.be/JGtGurlP564">[Talk Video]</a></p>
-<h3 id="improving-the-diagnosis-of-skin-biopsies-using-tissue-segmentation">Improving the Diagnosis of Skin Biopsies using Tissue Segmentation</h3>
+</section>
+<section id="improving-the-diagnosis-of-skin-biopsies-using-tissue-segmentation" class="filterDiv healthPaper">
+<h3>Improving the Diagnosis of Skin Biopsies using Tissue Segmentation</h3>
 <p>Nofallah, S.; Li, B.; Mokhtari, M.; Wu, W.; Knezevich, S.; May, C. J.; Chang, O. H.; Elmore, J.; Shapiro, L.</p>
 <p><em>In Diagnostics, 2022</em></p>
-<h3 id="stratification-of-children-with-autism-spectrum-disorder-through-fusion-of-temporal-information-in-eye-gaze-scan-paths">Stratification of Children with Autism Spectrum Disorder through Fusion of Temporal Information in Eye-gaze Scan-paths</h3>
+</section>
+<section id="stratification-of-children-with-autism-spectrum-disorder-through-fusion-of-temporal-information-in-eye-gaze-scan-paths" class="filterDiv healthPaper etPaper autismPaper">
+<h3>Stratification of Children with Autism Spectrum Disorder through Fusion of Temporal Information in Eye-gaze Scan-paths</h3>
 <p>Atyabi, A.; Shic, F.; Jiang, J.; Foster, C.E.; Barney, E.; Kim, M.; Li, B.; Ventola, P.; Chen, C.H..</p>
 <p><em>In 2022 ACM Transactions on Knowledge Discovery from Data (TKDD)</em></p>
 <p><a href="https://dlnext.acm.org/doi/10.1145/3539226">[Link]</a></p>
-<h3 id="memory-deficit-in-patients-with-temporal-lobe-epilepsy-evidence-from-eye-tracking-technology">Memory Deficit in Patients with Temporal Lobe Epilepsy: Evidence from Eye Tracking Technology</h3>
+</section>
+<section id="memory-deficit-in-patients-with-temporal-lobe-epilepsy-evidence-from-eye-tracking-technology" class="filterDiv healthPaper etPaper">
+<h3>Memory Deficit in Patients with Temporal Lobe Epilepsy: Evidence from Eye Tracking Technology</h3>
 <p>Zhu, G.; Wang, J.; Xiao, L.; Yang, K.; Huang, K.; Li, B.; Huang, S.; Xiao, B.; Liu, D.; Feng,L.; Wang, Q.</p>
 <p><em>Frontiers in Neuroscience</em> 2021</p>
 <p><a href="https://www.frontiersin.org/articles/10.3389/fnins.2021.716476/full">[Link]</a></p>
-<h3 id="cardinality-estimation-is-machine-learning-a-silver-bullet">Cardinality Estimation: Is Machine Learning a Silver Bullet?</h3>
+</section>
+<section id="cardinality-estimation-is-machine-learning-a-silver-bullet" class="filterDiv dbPaper">
+<h3>Cardinality Estimation: Is Machine Learning a Silver Bullet?</h3>
 <p>Li, B.; Lu, Y.; Wang, C.; Kandula, S..</p>
-<p><em>The 3rd International Workshop on Applied AI for Database Systems and Applications (AIDB).</em></p>
+<p><em>The 3rd International Workshop on Applied AI for Database Systems and Applications (AIDB).</em> 2021</p>
 <p><a href="docs/publications/li_ml_ce.pdf">[PDF]</a></p>
-<h3 id="q-error-bounds-of-random-uniform-sampling-for-cardinality-estimation">Q-error Bounds of Random Uniform Sampling for Cardinality Estimation</h3>
+</section>
+<section id="q-error-bounds-of-random-uniform-sampling-for-cardinality-estimation" class="filterDiv dbPaper">
+<h3>Q-error Bounds of Random Uniform Sampling for Cardinality Estimation</h3>
 <p>Li, B.; Lu, Y.; Wang, C.; Kandula, S..</p>
 <p>2021</p>
 <p><a href="https://arxiv.org/abs/2108.02715">[arXiv]</a></p>
-<h3 id="learning-oculomotor-behaviors-from-scanpath">Learning Oculomotor Behaviors from Scanpath</h3>
+</section>
+<section id="learning-oculomotor-behaviors-from-scanpath" class="filterDiv etPaper">
+<h3>Learning Oculomotor Behaviors from Scanpath</h3>
 <p>Li,B.; Nuechterlein, N.; Barney, E.; Foster, C.; Kim, M.; Mahony, M.; Atyabi, A.; Feng, L.; Wang, Q.; Ventola, P.; Shapiro, L.; Shic, F.</p>
 <p>In <em>2021 ACM International Conference In Multi-modal Interaction (ICMI)</em></p>
 <p><a href="https://arxiv.org/abs/2108.05025">[arXiv]</a> <a href="https://github.com/beibinli/OBF">[Code]</a></p>
-<h3 id="learning-melanocytic-proliferation-segmentation-in-histopathology-images-from-imperfect-annotations">Learning Melanocytic Proliferation Segmentation in Histopathology Images from Imperfect Annotations</h3>
+</section>
+<section id="learning-melanocytic-proliferation-segmentation-in-histopathology-images-from-imperfect-annotations" class="filterDiv healthPaper">
+<h3>Learning Melanocytic Proliferation Segmentation in Histopathology Images from Imperfect Annotations</h3>
 <p>Liu, K.; Mokhtari, M.; Li, B.; Nofallah, S.; May, C.; Chang, O.; Knezevich, Stevan.; Elmore, J.; Shapiro, L.</p>
 <p>In <em>2021 Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops</em></p>
 <p><a href="docs/publications/cvmi_2021_learning_melanocytic_proliferation.pdf">[PDF]</a></p>
-<h3 id="radiogenomic-modeling-predicts-survival-associated-prognostic-groups-in-glioblastoma">Radiogenomic Modeling Predicts Survival-Associated Prognostic Groups in Glioblastoma</h3>
+</section>
+<section id="radiogenomic-modeling-predicts-survival-associated-prognostic-groups-in-glioblastoma" class="filterDiv healthPaper">
+<h3>Radiogenomic Modeling Predicts Survival-Associated Prognostic Groups in Glioblastoma</h3>
 <p>Nuechterlein, N.; Li, B.; Feroze, A.; Holland, E; Shapiro, L; Haynor, D.; Fink, J.; Cimino, P.</p>
 <p>In <em>2021 Neuro-Oncology Advances (NOA)</em></p>
 <p><a href="https://academic.oup.com/noa/article/3/1/vdab004/6136246">[Link]</a></p>
-<h3 id="radiogenomic-features-predict-clinically-relevant-genome-wide-alteration-signatures-in-glioblastoma">Radiogenomic Features Predict Clinically Relevant Genome-Wide Alteration Signatures In Glioblastoma</h3>
+</section>
+<section id="radiogenomic-features-predict-clinically-relevant-genome-wide-alteration-signatures-in-glioblastoma" class="filterDiv healthPaper">
+<h3>Radiogenomic Features Predict Clinically Relevant Genome-Wide Alteration Signatures In Glioblastoma</h3>
 <p>Nuechterlein, N.; Li, B.; Feroze, A.; Holland, E; Shapiro, L; Haynor, D.; Fink, J.; Cimino, P.</p>
 <p>In <em>2021 Neuro-Oncology, Volume 22, Issue Supplement 2, November 2020</em></p>
 <p><a href="https://doi.org/10.1093/neuonc/noaa215.659">[Link]</a></p>
-<h3 id="classifying-breast-histopathology-images-with-a-ductal-instance-oriented-pipeline">Classifying Breast Histopathology Images with a Ductal Instance-Oriented Pipeline</h3>
+</section>
+<section id="classifying-breast-histopathology-images-with-a-ductal-instance-oriented-pipeline" class="filterDiv healthPaper">
+<h3>Classifying Breast Histopathology Images with a Ductal Instance-Oriented Pipeline</h3>
 <p>Li, B.; Mercan, E.; Mehta, S.; Knezevich, S.; Arnold, C.; Weaver, D.; Elmore, J.; Shapiro, L.</p>
 <p>In <em>2020 25th International Conference on Pattern Recognition</em>. IEEE.</p>
 <p><a href="docs/publications/ICPR20_2393_FI.pdf">[PDF]</a> <a href="docs/posters/ICPR_DIOP_Slides.pdf">[Slides]</a> <a href="docs/posters/2020_ICPR_Poster_DIOP.pdf">[Poster]</a> <a href="docs/posters/diop_presentation.mp4">[Presentation]</a></p>
-<h3 id="leveraging-unlabeled-data-for-glioma-molecular-subtype-and-survival-prediction">Leveraging Unlabeled Data for Glioma Molecular Subtype and Survival Prediction</h3>
+</section>
+<section id="leveraging-unlabeled-data-for-glioma-molecular-subtype-and-survival-prediction" class="filterDiv healthPaper">
+<h3>Leveraging Unlabeled Data for Glioma Molecular Subtype and Survival Prediction</h3>
 <p>Nuechterlein, N.; Li, B.; Seyfioglu, M.; Mehta, S.; Cimino, P.; Shapiro, L.</p>
 <p>In <em>2020 25th International Conference on Pattern Recognition</em>. IEEE.</p>
 <p><a href="docs/publications/icpr_glioma_2020.pdf">[PDF]</a></p>
-<h3 id="selection-of-eye-tracking-stimuli-for-prediction-by-sparsely-grouped-input-variables-for-neural-networks-towards-biomarker-refinement-for-autism">Selection of Eye-Tracking Stimuli for Prediction by Sparsely Grouped Input Variables for Neural Networks: towards Biomarker Refinement for Autism</h3>
+</section>
+<section id="selection-of-eye-tracking-stimuli-for-prediction-by-sparsely-grouped-input-variables-for-neural-networks-towards-biomarker-refinement-for-autism" class="filterDiv etPaper">
+<h3>Selection of Eye-Tracking Stimuli for Prediction by Sparsely Grouped Input Variables for Neural Networks: towards Biomarker Refinement for Autism</h3>
 <p>Li, B.; Barney, E.; Hudac, C.; Nuechterlein, N.; Ventola, P.; Shapiro, L.; Shic, F.</p>
 <p>In <em>Proceedings of the Ninth Biennial ACM Symposium on Eye Tracking Research and Applications</em>. ACM. (ACM ETRA 2020).</p>
 <p><a href="docs/publications/selection_ET_stimuli_SGIN_biomarker_autism.pdf">[PDF]</a>, <a href="http://github.com/beibinli/SGIN">[Code]</a></p>
-<h3 id="mlcd-a-unified-software-package-for-cancer-diagnosis">MLCD: A Unified Software Package for Cancer Diagnosis</h3>
+</section>
+<section id="mlcd-a-unified-software-package-for-cancer-diagnosis" class="filterDiv healthPaper">
+<h3>MLCD: A Unified Software Package for Cancer Diagnosis</h3>
 <p>Wu, W.; Li, B.; Ezgi, M.; Mehta, S.; Bartlett, J.; Weaver, D.; Elmore, J.; Shapiro, L.</p>
 <p>In <em>Journal of Clinical Oncology</em> (JCO). 2020</p>
 <p><a href="https://ascopubs.org/doi/full/10.1200/CCI.19.00129">[Link]</a>, <a href="https://ascopubs.org/doi/pdfdirect/10.1200/CCI.19.00129">[PDF]</a>, <a href="https://github.com/cancertech/cancer_diagnosis">[Code]</a>, <a href="https://cancertech.cs.washington.edu/">[Website]</a></p>
-<h3 id="sparsely-grouped-input-variables-for-neural-networks">Sparsely Grouped Input Variables for Neural Networks</h3>
+</section>
+<section id="sparsely-grouped-input-variables-for-neural-networks" class="filterDiv etPaper">
+<h3>Sparsely Grouped Input Variables for Neural Networks</h3>
 <p>Li, B.; Nuechterlein, N.; Barney, E.; Hudac, C.; Ventola, P.; Shapiro, L.; Shic, F.</p>
 <p><em>arXiv preprint arXiv:1911.13068</em> (2019).</p>
 <p><a href="https://arxiv.org/abs/1911.13068">[arXiv]</a>, <a href="http://github.com/beibinli/SGIN">[Code]</a></p>
-<h3 id="a-facial-affect-analysis-system-for-autism-spectrum-disorder">A Facial Affect Analysis System for Autism Spectrum Disorder</h3>
+</section>
+<section id="a-facial-affect-analysis-system-for-autism-spectrum-disorder" class="filterDiv healthPaper autismPaper">
+<h3>A Facial Affect Analysis System for Autism Spectrum Disorder</h3>
 <p>Li, B.; Mehta, S.; Aneja, D.; Foster, C.; Ventola, P.; Shic, F.; Shapiro, L.</p>
 <p>In <em>Proceedings of the IEEE International Conference on Image Processing</em> (ICIP 2019)</p>
 <p><a href="https://arxiv.org/abs/1904.03616">[arXiv]</a>, <a href="https://github.com/BeibinLi/affspec">[Code]</a>, [IEEE SPS Travel Grant]</p>
-<h3 id="social-influences-on-executive-functioning-in-autism-design-of-a-mobile-gaming-platform">Social Influences on Executive Functioning in Autism: Design of a Mobile Gaming Platform</h3>
+</section>
+<section id="social-influences-on-executive-functioning-in-autism-design-of-a-mobile-gaming-platform" class="filterDiv healthPaper autismPaper">
+<h3>Social Influences on Executive Functioning in Autism: Design of a Mobile Gaming Platform</h3>
 <p>Li, B., Atyabi, A., Kim, M., Barney, E., Ahn, A., Luo, Y., Aubertine, M., Corrigan, S., John, T., Wang, Q., Mademtzi, M., Best, M., &amp; Shic, F.</p>
 <p>In <em>Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</em> (p. 443) (ACM SIGCHI 2018).</p>
 <p><a href="docs/publications/EF_Game_2018.pdf">[PDF]</a></p>
-<h3 id="an-exploratory-analysis-targeting-diagnostic-classification-of-aac-app-usage-patterns">An Exploratory Analysis Targeting Diagnostic Classification of AAC App Usage Patterns</h3>
+</section>
+<section id="an-exploratory-analysis-targeting-diagnostic-classification-of-aac-app-usage-patterns" class="filterDiv healthPaper autismPaper">
+<h3>An Exploratory Analysis Targeting Diagnostic Classification of AAC App Usage Patterns</h3>
 <p>Atyabi, A., Li, B., Ahn, A., Kim, M., Barney, E., &amp; Shic, F.</p>
 <p>In <em>IEEE International Joint Conference on Neural Networks</em> (IEEE IJCNN 2017)</p>
 <p><a href="docs/publications/FreeSpeech_IJCNN.pdf">[PDF]</a></p>
-<h3 id="hybrid-calibration-for-eye-tracking-smooth-pursuit-trajectory-with-anchor-points">Hybrid Calibration for Eye Tracking: Smooth Pursuit Trajectory with Anchor Points</h3>
+</section>
+<section id="hybrid-calibration-for-eye-tracking-smooth-pursuit-trajectory-with-anchor-points" class="filterDiv etPaper">
+<h3>Hybrid Calibration for Eye Tracking: Smooth Pursuit Trajectory with Anchor Points</h3>
 <p>Wang, Q, , Barney, E., Wall, C., Dinicola, L., Foster, C., Ahn, Y., Li, B., &amp; Shic, F.</p>
 <p>In <em>Journal of Vision</em> 16(12):1355. September 2016.</p>
 <p><a href="https://www.researchgate.net/publication/307895971_Hybrid_Calibration_for_Eye_Tracking_Smooth_Pursuit_Trajectory_with_Anchor_Points">[Link]</a></p>
-<h3 id="a-thermal-emotion-classifier-for-improved-human-robot-interaction">A Thermal Emotion Classifier for Improved Human-Robot Interaction</h3>
+</section>
+<section id="a-thermal-emotion-classifier-for-improved-human-robot-interaction" class="filterDiv healthPaper">
+<h3>A Thermal Emotion Classifier for Improved Human-Robot Interaction</h3>
 <p>Boccanfuso, L., Wang, Q., Leite, I., Li, B., Torres, C., Chen, L., Salomons, N., Foster, C., Barney, E., Ahn, Y., Scassellati, B., &amp; Shic, F.</p>
 <p>In <em>IEEE International Symposium on Robot and Human Interactive Communication</em> 2016 (IEEE RO-MAN 2016).</p>
 <p><a href="docs/publications/A_thermal_emotion_classifier_for_improved_human_robot_interaction.pdf">[PDF]</a></p>
-<h3 id="human-robot-activity-classification-based-on-accelerometer-and-gyroscope">Human Robot Activity Classification based on Accelerometer and Gyroscope</h3>
+</section>
+<section id="human-robot-activity-classification-based-on-accelerometer-and-gyroscope" class="filterDiv autismPaper">
+<h3>Human Robot Activity Classification based on Accelerometer and Gyroscope</h3>
 <p>Li, B., Boccanfuso, L., Wang, Q., &amp; Shic, F.</p>
 <p>In <em>IEEE International Symposium on Robot and Human Interactive Communication</em> 2016 (IEEE RO-MAN 2016).</p>
 <p><a href="docs/publications/Human_Robot_Activity_Classification_Based_on_Accelerometer_and_Gyroscope.pdf">[PDF]</a></p>
-<h3 id="thermographic-eye-tracking">Thermographic eye tracking</h3>
+</section>
+<section id="thermographic-eye-tracking" class="filterDiv etPaper">
+<h3>Thermographic eye tracking</h3>
 <p>Wang, Q., Boccanfuso, L., Li, B., Ahn, A. Y. J., Foster, C. E., Orr, M. P., … &amp; Shic, F.</p>
 <p>In <em>Proceedings of the Ninth Biennial ACM Symposium on Eye Tracking Research and Applications</em> (pp. 307-310). ACM. (ACM ETRA 2016).</p>
 <p><a href="docs/publications/thermo_eye_tracking.pdf">[PDF]</a></p>
-<h3 id="modified-dbscan-algorithm-on-oculomotor-fixation-identification">Modified DBSCAN algorithm on oculomotor fixation identification</h3>
+</section>
+<section id="modified-dbscan-algorithm-on-oculomotor-fixation-identification" class="filterDiv etPaper">
+<h3>Modified DBSCAN algorithm on oculomotor fixation identification</h3>
 <p>Li, B., Wang, Q., Barney, E., Hart, L., Wall, C., Chawarska, K., … &amp; Shic, F.</p>
 <p>In <em>Proceedings of the Ninth Biennial ACM Symposium on Eye Tracking Research and Applications</em> (pp. 337-338). ACM. (ACM ETRA 2016).</p>
 <p><a href="docs/publications/MDBSCAN.pdf">[PDF]</a> <a href="https://github.com/BeibinLi/MDBSCAN">[Code]</a></p>
-<h3 id="optimality-of-the-distance-dispersion-fixation-identification-algorithm">Optimality of the distance dispersion fixation identification algorithm</h3>
+</section>
+<section id="optimality-of-the-distance-dispersion-fixation-identification-algorithm" class="filterDiv etPaper">
+<h3>Optimality of the distance dispersion fixation identification algorithm</h3>
 <p>Li, B., Wang, Q., Boccanfuso, L., &amp; Shic, F.</p>
 <p>In <em>Proceedings of the Ninth Biennial ACM Symposium on Eye Tracking Research and Applications</em> (pp. 339-340). ACM. (ACM ETRA 2016).</p>
 <p><a href="docs/publications/optimal_IDD.pdf">[PDF]</a></p>
+</section>
+</div>
 <h2 id="teaching">Teaching</h2>
 <h3 id="cse-577-medical-image-analysis">CSE 577: Medical Image Analysis</h3>
 <p>2021 Fall, University of Washington. <a href="https://courses.cs.washington.edu/courses/cse577/21au/">Course Website</a></p>
@@ -367,5 +426,6 @@
 </tbody>
 </table>
 <p><br> <br></p>
+<script src="filter.js"></script>
 </body>
 </html>
