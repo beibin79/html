@@ -5,7 +5,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #dddddd95;
+    background-color: #ddddddee;
     transparent: 0.5;
     overflow-x: hidden;
     transition: 0.5s;
@@ -18,7 +18,7 @@
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     color: #7533f4;
     display: inline;
     transition: 0.3s;
