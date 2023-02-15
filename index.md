@@ -1,7 +1,15 @@
 % Beibin Li
-% July/2022
+% Updated: July/2022
 
 <link rel="stylesheet" href="uw.css">
+<link rel="stylesheet" href="sidebar.css">
+
+<div id="mySidenav" class="sidenav" width="250px">
+<a href="#">About</a>
+<a href="#publication">Publication</a>
+<a href="#teaching">Teaching</a>
+<a href="#experience">Experience</a>
+</div>
 
 <br> <br>
 
@@ -13,24 +21,12 @@ beibin.li at microsoft.com;
 
 <br>
 
-Cloud Operation Research (CORE), Microsoft Research, Redmond, WA
+**Cloud Operation Research (CORE), Microsoft Research, Redmond, WA**
+
 
 <br>
 
-<!-- 
-Optimizing supply chain and virtual machine allocation methods, I aim to integrate modern deep learning methods,
-such as model pre-training, reinforcement learning, active learning, and variational inference, to combinatorial
-optimization problems in data centers and Azure services.
-<br><br>
--->
-
-Before joining Microsoft Research, I was a Ph.D. candidate at Paul G. Allen School of Computer Science and Engineering, the
-University of Washington, advised by Linda Shapiro and Frederick Shic. My Ph.D. [dissertation](uda/index.html)
-focuses on
-<i>Low-Resource Neural Adaptation: A Unified Data Adaptation Framework for Neural Networks</i>, where we adapt
-deep
-learning models for histopathological images, eye tracking models, autism behavior analyses, and
-database optimization.
+I'm currently a senior research engineer at Microsoft Research, where my work centers on AI and combinatorial optimization for cloud operations. Prior to joining MSR, I pursued a Ph.D. at the Paul G. Allen School of Computer Science and Engineering, University of Washington, under the guidance of Linda Shapiro and Frederick Shic. During that time, I dedicated my research to developing a Unified Data Adaptation Framework for Neural Networks, with a particular focus on low-resource neural adaptation. In my [dissertation](uda/index.html), I delved into the adaptation of deep learning models for a range of applications, including histopathological images, eye tracking models, autism behavior analyses, and database optimization.
 
 ## Publication
 
@@ -40,18 +36,17 @@ Liu, K.; Li, B.; Wu, W.; May, C.; Chang, O.; Knezevich, S.; Reische, L.; Elmore,
 
 _In WACV, 2023_
 
-
 ### The autism biomarkers consortium for clinical trials: evaluation of a battery of candidate eye-tracking biomarkers for use in autism clinical trials
+
 Shic, F., Naples, A.J., Barney, E.C., Chang, S.A., Li, B., McAllister, T., Kim, M., Dommer, K.J., Hasselmo, S., Atyabi, A. and Wang, Q.
 
 _In Molecular Autism, 13(1), pp.1-17._ 2022
 
 ### A Functional Model for Studying Common Trends Across Trial Time in Eye Tracking Experiments
+
 Dong, M., Telesca, D., Sugar, C., Shic, F., Naples, A., Johnson, S.P., Li, B., Atyabi, A., Xie, M., Webb, S.J. and Jeste, S.;
 
 _In Statistics in Biosciences, pp.1-27._ 2022
-
-
 
 ### Warper: Efficiently Adapting Learned Cardinality Estimators to Data and Workload Drifts
 
@@ -59,7 +54,7 @@ Li, B.; Lu, Y.; Kandula, S.
 
 _In 2022 ACM Management of Data (SIGMOD)._
 
-[[PDF]](http://yao.lu/warper.pdf) 
+[[PDF]](http://yao.lu/warper.pdf)
 [[Page]](docs/warper/index.html)
 [[Talk Slides PDF]](docs/warper/Warper_slides.pdf)
 [[Talk Video]](https://youtu.be/JGtGurlP564)
@@ -70,12 +65,11 @@ Nofallah, S.; Li, B.; Mokhtari, M.; Wu, W.; Knezevich, S.; May, C. J.; Chang, O.
 
 _In Diagnostics, 2022_
 
-
 ### Stratification of Children with Autism Spectrum Disorder through Fusion of Temporal Information in Eye-gaze Scan-paths
 
 Atyabi, A.; Shic, F.; Jiang, J.; Foster, C.E.; Barney, E.; Kim, M.; Li, B.; Ventola, P.; Chen, C.H..
 
-_In 2022 ACM Transactions on Knowledge Discovery from Data (TKDD) _
+_In 2022 ACM Transactions on Knowledge Discovery from Data (TKDD)_
 
 [[Link]](https://dlnext.acm.org/doi/10.1145/3539226)
 
@@ -310,7 +304,9 @@ _Teaching Assistant_
 
 Introduction to theory of computation.  Models of computation: finite state machines, Turing machines.  Decidable and undecidable problems.  Polynomial time computability and paradigms of algorithm design.  Computational complexity emphasizing NP-hardness.  Coping with intractability.  Exploiting intractability:  cryptography.
 
-## Education
+## Experience
+
+### Education
 
 |                |                     |                                  |                          |               |
 | :------------: | :-----------------: | :------------------------------: | :----------------------: | :-----------: |
@@ -318,7 +314,7 @@ Introduction to theory of computation.  Models of computation: finite state mach
 |  2015 | Bachelor of Science |           Mathematics            |  University of Michigan  | Ann Arbor, MI |
 |  2015 | Bachelor of Science |         Computer Science         |  University of Michigan  | Ann Arbor, MI |
 
-## Experience
+### Work
 
 |             |                    |                           |                                       |               |
 | :---------: | :----------------: | :-----------------------: | :-----------------------------------: | :-----------: |
