@@ -45,3 +45,19 @@
         font-size: 2px;
     }
 }
+
+
+@media (prefers-color-scheme: dark) {
+    .sidenav {
+        background-color: #222;
+    }
+
+    .sidenav a {
+
+        color: #9c87be;
+    }
+
+    .sidenav a:hover {
+        color: #fff;
+    }
+}

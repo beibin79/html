@@ -107,3 +107,44 @@ table {
   display: table;
   width: 100%;
 }
+
+
+@media (prefers-color-scheme: dark) {
+
+  html {
+    background-color: #121212;
+  }
+
+
+  body {
+    color: #eee;
+    background: #121212;
+  }
+
+  body a {
+    color: #809fff;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: #9c87be;
+  }
+
+  .title,
+  .title h1,
+  .title a {
+    color: #9c87be;
+  }
+
+  .footer a {
+    color: #9c87be;
+  }
+
+  .content {
+
+    background-color: #000000;
+  }
+}

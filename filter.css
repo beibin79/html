@@ -34,3 +34,23 @@ would not overlap with the current container. */
 .publicationContainer {
     overflow: hidden;
 }
+
+@media (prefers-color-scheme: dark) {
+    .filterBtn {
+
+        background-color: #333;
+        color: #fff;
+    }
+
+    /* Add a light grey background on mouse-over */
+    .filterBtn:hover {
+        background-color: #111;
+    }
+
+    /* Add a dark background to the active button */
+    .filterBtn.fBtnActive {
+        background-color: #888;
+        color: #fff;
+    }
+
+}
