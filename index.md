@@ -434,6 +434,10 @@ Introduction to theory of computation.  Models of computation: finite state mach
 
 <br> <br>
 
+<div style="text-align:center" id="visitor-counter">
+<img src="https://hitwebcounter.com/counter/counter.php?page=8489902&style=0003&nbdigits=5&type=page&initCount=0"> </img>
+</div>
+
 <script src="filter.js"></script>
 
 
