@@ -1,6 +1,6 @@
 % Beibin Li
 % 李辈滨
-% Updated: July/2022
+% Updated: April/2022
 
 <link rel="stylesheet" href="uw.css">
 <link rel="stylesheet" href="sidebar.css">
@@ -39,7 +39,32 @@ I'm currently a senior research engineer at Microsoft Research, where my work ce
   <button class="filterBtn" onclick="filterSelection('autismPaper')"> Autism </button>
 </div>
 
+
 <div class="publicationContainer">
+
+<div class="filterDiv dbPaper">
+
+### Kerveros: Efficient and Scalable Cloud Admission Control
+
+Sajal, S.;  Marshall, L.;  Li, B.;  Zhou, S.;  Pan, A.; Mellou, K.;  Narayanan1, D.;  Zhu, T.;  Dion, D.; Moscibroda, T.; Menache, I.
+
+_In OSDI, 2023_
+
+</div>
+
+
+
+<div class="filterDiv dbPaper">
+
+### VM Allocation with Lifetime Predictions
+
+Barbalho, H.;  Kovaleski, P.;  Li, B.;  Marshall, L.;  Molinaro, M.;  Pan, A.; Cortez, E.; Leao, M.;  Patwari, H.;  Tang, Z.;   Santos, T.; Goncalves, L.;   Dion, D.;  Moscibroda, T.;  Menache, I.
+
+_In MLSys, 2023_
+
+</div>
+
+
 
 <div class="filterDiv healthPaper">
 
