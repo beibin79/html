@@ -42,6 +42,19 @@ I'm currently a senior research engineer at Microsoft Research, where my work ce
 
 <div class="publicationContainer">
 
+
+<div class="filterDiv dbPaper">
+
+### Large Language Models for Supply Chain Optimization
+
+Li, B.; Mellou, K.; Zhang, B.; Pathuri, J.; Menache, I.;
+
+[[arXiv]](https://arxiv.org/abs/2307.03875)     [[GitHub]](https://github.com/microsoft/OptiGuide)
+
+
+</div>
+
+
 <div class="filterDiv dbPaper">
 
 ### Kerveros: Efficient and Scalable Cloud Admission Control
