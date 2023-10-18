@@ -1,6 +1,6 @@
 % Beibin Li
 % 李辈滨
-% Updated: Sept/2023
+% Updated: June/2024
 
 <link rel="stylesheet" href="uw.css">
 <link rel="stylesheet" href="sidebar.css">
@@ -23,7 +23,12 @@ beibin.li at microsoft.com;
 
 <br>
 
-**Cloud Operation Research (CORE), Microsoft Research, Redmond, WA**
+**Machine Learning and Optimization (MLO), Microsoft Research, Redmond, WA**
+
+
+- [[Book Meeting with Me](https://outlook.office.com/bookwithme/user/6d89b62a2abc4476b3eeed275eb16354@microsoft.com?anonymous&ep=plink)]
+
+
 
 <br>
 
@@ -34,16 +39,54 @@ I'm currently a senior research engineer at Microsoft Research, where my work ce
 <div id="filterBtnContainer">
   <button class="filterBtn fBtnActive" onclick="filterSelection('all')"> All </button>
   <button class="filterBtn" onclick="filterSelection('dbPaper')"> System </button>
-  <button class="filterBtn" onclick="filterSelection('healthPaper')"> Health </button>
+  <button class="filterBtn" onclick="filterSelection('mlPaper')"> Machine Learning </button>
   <button class="filterBtn" onclick="filterSelection('etPaper')"> Eye-Tracking </button>
+  <button class="filterBtn" onclick="filterSelection('healthPaper')"> Health </button>
   <button class="filterBtn" onclick="filterSelection('autismPaper')"> Autism </button>
 </div>
 
-
 <div class="publicationContainer">
+<div class="filterDiv mlPaper">
+
+### Small Language Models for Application Interactions: A Case Study
+
+Li, B.,  Zhang, Y., Bubeck, S., Pathuri, S.,  Menache, I.
+
+[[arXiv]](https://arxiv.org/abs/2405.20347)
+
+</div>
 
 
-<div class="filterDiv dbPaper">
+<div class="filterDiv mlPaper">
+
+### Reflect-RL: Two-Player Online RL Fine-Tuning for LMs
+
+Zhou, R., Du, SS., Li, B.
+
+[[arXiv]](https://arxiv.org/abs/2402.12621)
+
+</div>
+
+
+<div class="filterDiv mlPaper">
+
+### Autogen: Enabling next-gen llm applications via multi-agent conversation framework
+Wu, Q., Bansal, G., Zhang, J., Wu, Y., Zhang, S., Zhu, E., Li, B., Jiang, L., Zhang, X., Wang, C.
+
+[[arXiv]](https://arxiv.org/abs/2308.08155)     [[GitHub]](https://github.com/microsoft/autogen)
+
+
+</div>
+
+<div class="filterDiv mlPaper">
+### Towards Safer Heuristics With Xplain
+Karimi, P.,  Pirelli, S., Kakarla, S., Beckett, R.,  Segarra, S.,  Li, B., Namyar, P., Arzani, B.
+
+_In HotNet, 2024_
+
+</div>
+
+<div class="filterDiv mlPaper">
 
 ### Large Language Models for Supply Chain Optimization
 
@@ -282,7 +325,7 @@ In _Journal of Clinical Oncology_ (JCO). 2020
 
 </div>
 
-<div class="filterDiv etPaper">
+<div class="filterDiv mlPaper">
 
 ### Sparsely Grouped Input Variables for Neural Networks
 
@@ -466,7 +509,7 @@ Introduction to theory of computation.  Models of computation: finite state mach
 
 |             |                    |                           |                                       |               |
 | :---------: | :----------------: | :-----------------------: | :-----------------------------------: | :-----------: |
-| 2022 - Now | Senior Research Engineer |   CORE           | Microsoft Research |  Redmond, WA  |
+| 2022 - Now | Senior Research Engineer |   Machine Learning and Optimization | Microsoft Research |  Redmond, WA  |
 | 2016 - 2017 | Research Associate |           SCITL           | Seattle Children's Research Institute |  Seattle, WA  |
 | 2015 - 2016 |  Research Fellow   | Technology Innovation Lab |            Yale University            | New Haven, CT |
 
