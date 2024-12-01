@@ -23,7 +23,7 @@ beibin.li at microsoft.com;
 
 <br>
 
-**Machine Learning and Optimization (MLO), Microsoft Research, Redmond, WA**
+**Microsoft Research, Redmond, WA**
 
 
 - [[Book Meeting with Me](https://outlook.office.com/bookwithme/user/6d89b62a2abc4476b3eeed275eb16354@microsoft.com?anonymous&ep=plink)]
@@ -32,7 +32,10 @@ beibin.li at microsoft.com;
 
 <br>
 
-I'm currently a senior research engineer at Microsoft Research, where my work centers on AI and combinatorial optimization for cloud operations. Prior to joining MSR, I pursued a Ph.D. at the Paul G. Allen School of Computer Science and Engineering, University of Washington, under the guidance of Linda Shapiro and Frederick Shic. During that time, I dedicated my research to developing a Unified Data Adaptation Framework for Neural Networks, with a particular focus on low-resource neural adaptation. In my [dissertation](uda/index.html), I delved into the adaptation of deep learning models for a range of applications, including histopathological images, eye tracking models, autism behavior analyses, and database optimization.
+
+I'm currently a senior research engineer at Microsoft Research, where my work centers on combinatorial optimization for cloud operations. Prior to joining MSR, I pursued a Ph.D. at the Paul G. Allen School, University of Washington, under the guidance of Linda Shapiro and Frederick Shic. During that time, I dedicated my research to developing a Unified Data Adaptation Framework, with a particular focus on low-resource adaptation. In my [dissertation](uda/index.html), I delved into the adaptation of mathematical models for a range of applications, including histopathological images, eye tracking models, autism analyses, and database optimization. 
+
+
 
 ## Publication
 
